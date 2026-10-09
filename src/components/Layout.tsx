@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { useEffect, useRef } from 'react';
 import { Dialog, IconButton } from '@radix-ui/themes';
-import { ArrowUpRight, Menu, HandHeart, X } from 'lucide-react';
+import { ArrowUpRight, Menu, X } from 'lucide-react';
 import type { ReactNode } from 'react';
 import { getProject, getSiteContent } from '../services/content';
 import { LinkButton } from './LinkButton';
@@ -149,10 +149,11 @@ export function Layout({
           <div className="footer-top">
             <div>
               <a className="brand" href="#/">
-                <span className="brand-mark">
-                  <HandHeart size={23} />
-                </span>
-                here to help.
+                <img
+                  className="brand-logo"
+                  src={`${import.meta.env.BASE_URL}logo-heretohelp-dark.svg`}
+                  alt="Here to Help"
+                />
               </a>
               <p>Helpful technology for real life.</p>
             </div>
