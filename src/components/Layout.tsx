@@ -7,6 +7,7 @@ import { getProject, getSiteContent } from '../services/content';
 import { LinkButton } from './LinkButton';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { getLanguage } from '../i18n';
+import { AnimatedLogo } from './AnimatedLogo';
 
 export function Layout({
   path,
@@ -64,13 +65,7 @@ export function Layout({
       </a>
       <header className="site-header">
         <div className="container header-inner">
-          <a className="brand" href="#/" aria-label="Here to Help">
-            <img
-              className="brand-logo"
-              src={`${import.meta.env.BASE_URL}logo-heretohelp-light.svg`}
-              alt=""
-            />
-          </a>
+          <AnimatedLogo />
           <nav className="desktop-nav" aria-label={t('layout.navigation')}>
             {site.navigation.map((item) => (
               <a
