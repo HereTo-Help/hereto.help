@@ -279,19 +279,6 @@ main:focus {
   margin-top: 26px;
   letter-spacing: 0.035em;
 }
-.trailer-section {
-  padding-top: 0;
-}
-.trailer-section h2 {
-  margin-bottom: 28px;
-}
-.trailer-section video {
-  display: block;
-  width: min(100%, 960px);
-  height: auto;
-  border-radius: 12px;
-  background: #181c27;
-}
 .value-strip {
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);

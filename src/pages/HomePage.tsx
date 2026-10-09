@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { ArrowUpRight, ArrowDown, Sprout } from 'lucide-react';
-import { HeroPhotography } from '../components/Photography';
+import { HeroTrailer } from '../components/Photography';
 import { LinkButton } from '../components/LinkButton';
 import { ProjectCard } from '../components/ProjectCard';
 import { ServiceCards } from '../components/ServiceCards';
@@ -43,19 +43,7 @@ export function HomePage() {
             Helpful technology for real life.
           </span>
         </div>
-        <HeroPhotography />
-      </section>
-      <section className="trailer-section section container">
-        <h2>{t('homePage.trailerTitle')}</h2>
-        <video
-          aria-label={t('homePage.trailerLabel')}
-          controls
-          playsInline
-          preload="metadata"
-        >
-          <source src="/trailer_en.mp4" type="video/mp4" />
-          {t('homePage.trailerUnsupported')}
-        </video>
+        <HeroTrailer />
       </section>
       <ValueStrip />
       <section className="section container mission-section">
