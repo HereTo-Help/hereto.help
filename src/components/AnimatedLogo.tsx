@@ -48,8 +48,8 @@ export function AnimatedLogo() {
       focused = false;
       update();
     };
-    element.addEventListener('mouseenter', enter);
-    element.addEventListener('mouseleave', leave);
+    element.addEventListener('pointerenter', enter);
+    element.addEventListener('pointerleave', leave);
     element.addEventListener('focus', focus);
     element.addEventListener('blur', blur);
     desktop.addEventListener('change', update);
@@ -57,8 +57,8 @@ export function AnimatedLogo() {
     update();
     return () => {
       playback.dispose();
-      element.removeEventListener('mouseenter', enter);
-      element.removeEventListener('mouseleave', leave);
+      element.removeEventListener('pointerenter', enter);
+      element.removeEventListener('pointerleave', leave);
       element.removeEventListener('focus', focus);
       element.removeEventListener('blur', blur);
       desktop.removeEventListener('change', update);
