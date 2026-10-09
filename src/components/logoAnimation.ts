@@ -52,7 +52,7 @@ export function createLogoPlayback(render: (progress: number) => void) {
 
   function advance(now: number) {
     previous ??= now;
-    const step = (now - previous) / LOGO_DURATION;
+    const step = Math.max(0, now - previous) / LOGO_DURATION;
     progress =
       target > origin
         ? Math.min(target, origin + step)
@@ -68,13 +68,15 @@ export function createLogoPlayback(render: (progress: number) => void) {
 
   return {
     setActive(active: boolean, immediate = false) {
+      const nextTarget = active ? 1 : 0;
+      if (!immediate && nextTarget === target) return;
       const now = performance.now();
       if (frame !== undefined && previous !== undefined) advance(now);
       origin = progress;
       previous =
         frame !== undefined && previous !== undefined ? now : undefined;
-      target = active ? 1 : 0;
-      if (immediate) {
+      target = nextTarget;
+      if (immediate || progress === target) {
         if (frame !== undefined) cancelAnimationFrame(frame);
         frame = undefined;
         progress = target;

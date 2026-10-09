@@ -195,6 +195,9 @@ describe('reversible logo playback', () => {
     playback.setActive(true);
     now += 1000;
     playback.setActive(false);
+    expect(callbacks.size).toBe(0);
+    expect(render).toHaveBeenLastCalledWith(0);
+    render.mockClear();
     playback.setActive(true);
     expect(render).not.toHaveBeenCalled();
     expect(callbacks.size).toBe(1);
@@ -205,6 +208,50 @@ describe('reversible logo playback', () => {
     playback.setActive(false, true);
     expect(render).toHaveBeenLastCalledWith(0);
     expect(callbacks.size).toBe(0);
+  });
+
+  it('stops rendering at both endpoints even with repeated interaction updates', () => {
+    const render = vi.fn();
+    const playback = createLogoPlayback(render);
+    playback.setActive(true);
+    frame(0);
+    for (let i = 0; i < 10; i++) {
+      playback.setActive(true);
+      frame(65);
+    }
+    expect(render).toHaveBeenLastCalledWith(1);
+    expect(callbacks.size).toBe(0);
+    render.mockClear();
+    for (let i = 0; i < 50; i++) {
+      playback.setActive(true);
+      frame(100);
+    }
+    expect(render).not.toHaveBeenCalled();
+    expect(callbacks.size).toBe(0);
+
+    playback.setActive(false);
+    frame(0);
+    frame(650);
+    expect(render).toHaveBeenLastCalledWith(0);
+    expect(callbacks.size).toBe(0);
+    render.mockClear();
+    playback.setActive(false);
+    frame(5000);
+    expect(render).not.toHaveBeenCalled();
+    expect(callbacks.size).toBe(0);
+  });
+
+  it('cancels a pending frame when an interaction arrives at the endpoint', () => {
+    const render = vi.fn();
+    const playback = createLogoPlayback(render);
+    playback.setActive(true);
+    frame(0);
+    playback.setActive(false);
+    expect(render).toHaveBeenLastCalledWith(0);
+    expect(callbacks.size).toBe(0);
+    render.mockClear();
+    frame(5000);
+    expect(render).not.toHaveBeenCalled();
   });
 
   it('cancels callbacks on cleanup and applies static states immediately', () => {
