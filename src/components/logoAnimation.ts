@@ -1,4 +1,4 @@
-import source from '../../public/logo-heretohelp-light.svg?raw';
+import source from '../../public/logos/logo-heretohelp-light.svg?raw';
 
 export const LOGO_DURATION = 650;
 export const FIRST_JUMP_END = 0.64;

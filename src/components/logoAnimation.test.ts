@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import source from '../../public/logo-heretohelp-light.svg?raw';
+import source from '../../public/logos/logo-heretohelp-light.svg?raw';
 import {
   createLogoMarkup,
   createLogoPlayback,
