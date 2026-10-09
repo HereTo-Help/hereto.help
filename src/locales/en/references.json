@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ycl-cloud",
+    "organisation": "Yacht-Club Luzern (YCL)",
+    "organisationUrl": "https://www.ycl.ch/",
+    "kind": "Cloud infrastructure",
+    "title": "A digital foundation for everyday club life.",
+    "summary": "Building cloud infrastructure and applying for free or discounted Microsoft licences for Yacht-Club Luzern.",
+    "context": "YCL promotes sailing and provides junior training. Cloud infrastructure was built to support the club’s work, alongside assistance with applications for Microsoft nonprofit offers.",
+    "work": [
+      "Building cloud infrastructure with various Azure resources",
+      "Setting up SharePoint Online and Microsoft 365 Apps",
+      "Setting up Exchange Online mailboxes with access through Outlook on the web",
+      "Applying for free or discounted licences through Microsoft for Nonprofits"
+    ],
+    "technologies": [
+      "SharePoint Online",
+      "Microsoft Azure",
+      "Microsoft 365 Apps",
+      "Exchange Online",
+      "Outlook on the web"
+    ],
+    "motivation": "",
+    "image": "reference-sailing",
+    "logo": "ycl.png"
+  },
+  {
+    "id": "ycl-regatta",
+    "organisation": "Yacht-Club Luzern (YCL)",
+    "organisationUrl": "https://www.ycl.ch/",
+    "kind": "Rapid prototyping",
+    "title": "Making regatta administration tangible early.",
+    "summary": "Rapid prototyping of an administration solution for members, boats, teams and multi-day regattas.",
+    "context": "A prototype made the administration of a regatta with multiple days and individual races tangible. The focus was on related information and the administration of each regatta day.",
+    "work": [
+      "Managing members, boats and teams",
+      "Modelling multi-day regattas",
+      "Administering individual regatta days",
+      "Organising the races or runs for each day"
+    ],
+    "technologies": [],
+    "motivation": "",
+    "image": "reference-sailing",
+    "logo": "ycl.png"
+  },
+  {
+    "id": "bethlehem-communications",
+    "organisation": "Children’s Relief Bethlehem",
+    "organisationUrl": "https://www.kinderhilfe-bethlehem.ch/en",
+    "kind": "Redundant communications",
+    "title": "Keeping a connection when it matters most.",
+    "summary": "Building redundant communications for mobile workstations between Switzerland and the children’s hospital in Bethlehem.",
+    "context": "Mobile workstations needed to communicate between Switzerland and the children’s hospital in Bethlehem with high resilience. Redundant communication paths were built, with fallback options extending to an analogue modem.",
+    "work": [
+      "Building communications designed for high resilience",
+      "Connecting mobile workstations between Switzerland and the children’s hospital",
+      "Redundant communication paths with fallback options extending to an analogue modem"
+    ],
+    "technologies": [
+      "Redundant communication paths",
+      "Analogue modem connection as a fallback"
+    ],
+    "motivation": "A small project with lasting personal significance: this experience became a long-term motivation for Here to Help. It showed how focused technical support can make a meaningful contribution to a human cause.",
+    "image": "reference-communications",
+    "logo": "bethlehem.jpg"
+  },
+  {
+    "id": "sirius-adoption",
+    "organisation": "Tierschutzverein Sirius",
+    "organisationUrl": "",
+    "kind": "Website consulting & rapid prototyping",
+    "title": "Making animal adoption tangible online.",
+    "summary": "Website consulting and rapid prototyping of a web app for dog and cat adoption for the animal welfare association Sirius.",
+    "context": "The work combined website consulting with an early web-app prototype for dog and cat adoption. This made the idea of digital support for animal adoption tangible.",
+    "work": [
+      "Website consulting for the animal welfare association Sirius",
+      "Rapid prototyping of a web app for dog and cat adoption"
+    ],
+    "technologies": [],
+    "motivation": "",
+    "image": "reference-adoption",
+    "logo": ""
+  },
+  {
+    "id": "atelier-schnittpunkt",
+    "organisation": "Atelier Schnittpunkt Stans",
+    "organisationUrl": "https://www.atelierschnittpunkt.ch/",
+    "kind": "Fashion photography & website consulting",
+    "title": "Making fashion and craftsmanship visible.",
+    "summary": "Photography at fashion show events and website consulting for Atelier Schnittpunkt in Stans.",
+    "context": "This reference comes from work for a tailoring and fashion atelier that trains apprentices. The contribution included photography at fashion show events and website consulting.",
+    "work": ["Photography at fashion show events", "Website consulting"],
+    "technologies": [],
+    "motivation": "",
+    "image": "reference-fashion",
+    "logo": "schnittpunkt.png"
+  },
+  {
+    "id": "lucouture",
+    "organisation": "LuCouture Luzern",
+    "organisationUrl": "https://lu-couture.ch/",
+    "kind": "Event & product photography",
+    "title": "From the runway to the online shop.",
+    "summary": "Photography at various fashion shows at the KKL, plus product photography and image optimisation for LuCouture Luzern’s online shop.",
+    "context": "Various fashion shows at the KKL were photographed for this fashion atelier, which trains apprentices. The work also included product photography for the online shop and optimisation of the images for use in the shop.",
+    "work": [
+      "Photography at various fashion shows at the KKL",
+      "Product photography for the online shop",
+      "Optimising product images for the online shop"
+    ],
+    "technologies": [],
+    "motivation": "",
+    "image": "reference-fashion",
+    "logo": "lucouture.png"
+  }
+]

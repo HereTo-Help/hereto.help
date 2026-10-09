@@ -1,0 +1,7 @@
+node_modules/
+dist/
+tmp/
+package-lock.json
+*.pdf
+*.tsbuildinfo
+public/governance/statuten.de.md

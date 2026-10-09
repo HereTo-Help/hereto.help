@@ -1,0 +1,13 @@
+node_modules/
+dist/
+tmp/
+*.local
+*.log
+*.tsbuildinfo
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key

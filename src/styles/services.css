@@ -1,0 +1,222 @@
+.services-preview {
+  background: #eef7f6;
+}
+.project-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 30px;
+}
+.project-feature {
+  display: flex;
+  flex-direction: column;
+  padding: 26px;
+  border: 1px solid #dce8e5;
+  border-radius: 16px;
+  background: #fff;
+  text-align: left;
+}
+.project-feature > svg {
+  color: #007f73;
+  margin-bottom: 16px;
+}
+.project-feature h3 {
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+.project-feature p {
+  color: #53635f;
+  line-height: 1.75;
+  margin-bottom: 24px;
+}
+.project-feature .link-button {
+  margin-top: auto;
+  align-self: flex-start;
+  white-space: normal;
+  height: auto;
+  min-height: 44px;
+}
+.project-recruitment {
+  background: #eef7f6;
+  padding: 40px;
+  border-radius: 22px;
+  margin-bottom: 80px;
+}
+.project-recruitment > p {
+  max-width: 720px;
+  color: #53635f;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+@media (max-width: 850px) {
+  .project-feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .project-recruitment {
+    padding: 24px;
+  }
+}
+.services-process > h2 {
+  margin-bottom: 36px;
+}
+.hero-copy,
+.hero-photography {
+  min-width: 0;
+}
+.hero-copy h1 {
+  font-size: clamp(42px, 4.3vw, 60px);
+}
+@media (max-width: 600px) {
+  .hero-copy h1 {
+    font-size: clamp(36px, 8.5vw, 48px);
+  }
+  .hero-actions {
+    flex-wrap: wrap;
+  }
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.service-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid #e0e8e7;
+  border-radius: 18px;
+  padding: 28px;
+  border-top: 5px solid var(--teal, #007f73);
+}
+.service-card:nth-child(2) {
+  border-top-color: #f4c542;
+}
+.service-card:nth-child(3) {
+  border-top-color: #ef7153;
+}
+.service-card:nth-child(4) {
+  border-top-color: #2780ba;
+}
+.service-card:nth-child(5) {
+  border-top-color: #253b3a;
+}
+.service-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #007f73;
+  margin-bottom: 26px;
+}
+.service-card-top span {
+  font-size: 13px;
+  color: #61716e;
+}
+.service-card h3 {
+  font-size: 23px;
+  line-height: 1.25;
+  margin: 0 0 16px;
+}
+.service-card p {
+  color: #53635f;
+  line-height: 1.7;
+  margin: 0 0 20px;
+}
+.service-card .service-detail {
+  font-size: 14px;
+}
+.service-card .text-link {
+  margin-top: auto;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.services-intro {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+.services-photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 22px;
+  border-bottom: 8px solid #f4c542;
+}
+.services-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.45;
+  object-fit: cover;
+}
+.services-intro-copy p,
+.services-own p,
+.services-scope {
+  color: #53635f;
+  line-height: 1.8;
+}
+.services-intro-copy .link-button {
+  margin-top: 14px;
+}
+.services-scope {
+  max-width: 850px;
+  margin: 32px 0 0;
+  font-size: 14px;
+}
+.services-own {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 40px;
+  background: #f8df72;
+  border-radius: 22px;
+  margin-bottom: 90px;
+}
+.services-own h2 {
+  font-size: 30px;
+}
+.services-own p {
+  max-width: 580px;
+}
+@media (max-width: 1150px) {
+  .desktop-nav,
+  .header-cta {
+    display: none;
+  }
+  .mobile-menu.rt-IconButton {
+    display: inline-flex;
+  }
+  .language-switcher {
+    margin-left: auto;
+  }
+}
+@media (max-width: 900px) {
+  .service-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .services-intro {
+    gap: 30px;
+  }
+  .services-own {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .service-grid,
+  .services-intro {
+    grid-template-columns: 1fr;
+  }
+  .service-card {
+    padding: 24px;
+  }
+  .services-own {
+    padding: 26px;
+    margin-bottom: 60px;
+  }
+  .services-intro-copy h2 {
+    font-size: 34px;
+  }
+}

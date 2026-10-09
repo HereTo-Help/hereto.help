@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ycl-cloud",
+    "organisation": "Yacht-Club Luzern (YCL)",
+    "organisationUrl": "https://www.ycl.ch/",
+    "kind": "Cloud-Infrastruktur",
+    "title": "Eine digitale Grundlage für den Vereinsalltag.",
+    "summary": "Aufbau der Cloud-Infrastruktur und Beantragung kostenfreier beziehungsweise vergünstigter Microsoft-Lizenzen für den Yacht-Club Luzern.",
+    "context": "Der YCL fördert den Segelsport und bietet Juniorentraining an. Für diese Vereinsarbeit wurde eine Cloud-Infrastruktur aufgebaut und die Beantragung von Microsoft-Förderangeboten begleitet.",
+    "work": [
+      "Aufbau der Cloud-Infrastruktur mit verschiedenen Azure-Ressourcen",
+      "Einrichtung von SharePoint Online und Microsoft 365 Apps",
+      "Einrichtung von Exchange-Online-Postfächern mit Zugriff über Outlook im Web",
+      "Beantragung kostenfreier beziehungsweise vergünstigter Lizenzen im Rahmen von Microsoft for Nonprofits"
+    ],
+    "technologies": [
+      "SharePoint Online",
+      "Microsoft Azure",
+      "Microsoft 365 Apps",
+      "Exchange Online",
+      "Outlook im Web"
+    ],
+    "motivation": "",
+    "image": "reference-sailing",
+    "logo": "ycl.png"
+  },
+  {
+    "id": "ycl-regatta",
+    "organisation": "Yacht-Club Luzern (YCL)",
+    "organisationUrl": "https://www.ycl.ch/",
+    "kind": "Rapid Prototyping",
+    "title": "Regattaverwaltung früh greifbar machen.",
+    "summary": "Rapid Prototyping einer Verwaltung für Mitglieder, Boote, Teams und mehrtägige Regatten.",
+    "context": "Ein Prototyp machte die Verwaltung einer Regatta mit mehreren Tagen und einzelnen Wettfahrten greifbar. Im Mittelpunkt standen die zusammengehörigen Informationen und die Administration der einzelnen Regattatage.",
+    "work": [
+      "Verwaltung von Mitgliedern, Booten und Teams",
+      "Abbildung mehrtägiger Regatten",
+      "Administration der einzelnen Regattatage",
+      "Organisation der Wettfahrten beziehungsweise Runs je Tag"
+    ],
+    "technologies": [],
+    "motivation": "",
+    "image": "reference-sailing",
+    "logo": "ycl.png"
+  },
+  {
+    "id": "bethlehem-communications",
+    "organisation": "Kinderhilfe Bethlehem",
+    "organisationUrl": "https://www.kinderhilfe-bethlehem.ch/",
+    "kind": "Redundante Kommunikation",
+    "title": "Verbindung halten, wenn sie besonders zählt.",
+    "summary": "Aufbau redundanter Kommunikation für mobile Arbeitsstationen zwischen der Schweiz und dem Kinderspital in Bethlehem.",
+    "context": "Mobile Arbeitsstationen sollten von der Schweiz bis zum Kinderspital in Bethlehem möglichst ausfallsicher kommunizieren können. Dafür wurden redundante Kommunikationswege aufgebaut — mit Rückfallmöglichkeiten bis zum analogen Modem.",
+    "work": [
+      "Aufbau einer auf hohe Ausfallsicherheit ausgerichteten Kommunikation",
+      "Verbindung mobiler Arbeitsstationen zwischen der Schweiz und dem Kinderspital",
+      "Redundante Kommunikationswege mit Rückfallmöglichkeiten bis zum analogen Modem"
+    ],
+    "technologies": [
+      "Redundante Kommunikationswege",
+      "Analoge Modemverbindung als Rückfallmöglichkeit"
+    ],
+    "motivation": "Ein kleines Projekt mit nachhaltiger persönlicher Bedeutung: Diese Erfahrung wurde zu einer langfristigen Motivation für Here to Help. Sie zeigte, wie gezielte technische Unterstützung für ein menschliches Anliegen viel bewirken kann.",
+    "image": "reference-communications",
+    "logo": "bethlehem.jpg"
+  },
+  {
+    "id": "sirius-adoption",
+    "organisation": "Tierschutzverein Sirius",
+    "organisationUrl": "",
+    "kind": "Website-Beratung & Rapid Prototyping",
+    "title": "Tiervermittlung digital greifbar machen.",
+    "summary": "Website-Beratung und Rapid Prototyping einer Web-App zur Vermittlung von Hunden und Katzen für den Tierschutzverein Sirius.",
+    "context": "Die Arbeit verband Beratung zur Website mit einem frühen Web-App-Prototyp für die Hunde- und Katzenvermittlung. So wurde die Idee für eine digitale Unterstützung der Tiervermittlung greifbar.",
+    "work": [
+      "Beratung zur Website des Tierschutzvereins Sirius",
+      "Rapid Prototyping einer Web-App für die Hunde- und Katzenvermittlung"
+    ],
+    "technologies": [],
+    "motivation": "",
+    "image": "reference-adoption",
+    "logo": ""
+  },
+  {
+    "id": "atelier-schnittpunkt",
+    "organisation": "Atelier Schnittpunkt Stans",
+    "organisationUrl": "https://www.atelierschnittpunkt.ch/",
+    "kind": "Modefotografie & Website-Beratung",
+    "title": "Mode und Handwerk sichtbar machen.",
+    "summary": "Fotografie bei Modeshow-Events und Beratung zur Website für Atelier Schnittpunkt in Stans.",
+    "context": "Die Referenz stammt aus der Arbeit für ein Schneider- und Modeatelier mit Lehrlingsausbildung. Der Beitrag umfasste die fotografische Begleitung von Modeshow-Events sowie Beratung zur Website.",
+    "work": ["Fotografie bei Modeshow-Events", "Beratung zur Website"],
+    "technologies": [],
+    "motivation": "",
+    "image": "reference-fashion",
+    "logo": "schnittpunkt.png"
+  },
+  {
+    "id": "lucouture",
+    "organisation": "LuCouture Luzern",
+    "organisationUrl": "https://lu-couture.ch/",
+    "kind": "Event- & Produktfotografie",
+    "title": "Vom Laufsteg in den Webshop.",
+    "summary": "Fotografie bei verschiedenen Modeshows im KKL sowie Produktfotos und deren Optimierung für den Webshop von LuCouture Luzern.",
+    "context": "Für das Modeatelier mit Lehrlingsausbildung wurden verschiedene Modeshows im KKL fotografisch begleitet. Dazu kamen Produktaufnahmen für den Webshop einschliesslich der Optimierung der Bilder für ihren Einsatz im Shop.",
+    "work": [
+      "Fotografie bei verschiedenen Modeshows im KKL",
+      "Produktfotografie für den Webshop",
+      "Optimierung der Produktfotos für den Webshop"
+    ],
+    "technologies": [],
+    "motivation": "",
+    "image": "reference-fashion",
+    "logo": "lucouture.png"
+  }
+]

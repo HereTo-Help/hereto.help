@@ -1,0 +1,121 @@
+[
+  {
+    "id": "family-butler",
+    "image": "family",
+    "name": "Family Butler",
+    "category": "Family life",
+    "status": "Calendar & modules · Shared parenting in beta",
+    "stage": "existing",
+    "theme": "sage",
+    "headline": "More clarity. More togetherness.",
+    "summary": "Organise family life together with a core calendar, childcare and a shared parenting module currently in beta testing.",
+    "title": "A clearer view of family life.",
+    "description": "Family Butler combines core calendar functionality with a childcare module and a shared parenting module. The shared parenting module is currently in beta testing. Together, we are developing practical support for everyday family life.",
+    "notice": "The shared parenting module is currently in beta testing. We are looking for beta testers, developers and Apple TV developers.",
+    "url": "",
+    "goals": [
+      "Simplify the organisation of family life",
+      "Put shared needs first",
+      "Create clear, practical digital support"
+    ],
+    "features": [
+      {
+        "title": "Core calendar",
+        "text": "Calendar functionality is at the heart of Family Butler, supporting shared schedule organisation."
+      },
+      {
+        "title": "Childcare module",
+        "text": "A dedicated module supports the organisation of childcare."
+      },
+      {
+        "title": "Shared parenting module",
+        "text": "Support for shared parenting. This module is currently in beta testing."
+      }
+    ],
+    "recruitment": {
+      "title": "Help us improve Family Butler.",
+      "text": "Test the shared parenting module or contribute your development experience. We are looking for support in these three areas:",
+      "roles": [
+        {
+          "id": "beta-testing",
+          "title": "Beta testers",
+          "text": "Try the shared parenting module and share your experiences and feedback."
+        },
+        {
+          "id": "development",
+          "title": "Developers",
+          "text": "Contribute to the ongoing development of Family Butler."
+        },
+        {
+          "id": "apple-tv",
+          "title": "Apple TV developers",
+          "text": "Bring your experience developing for Apple TV."
+        }
+      ]
+    }
+  },
+  {
+    "id": "meet-for-real",
+    "image": "connection",
+    "name": "Meet for Real",
+    "category": "Real connections",
+    "status": "Project idea · in development",
+    "stage": "idea",
+    "theme": "peach",
+    "headline": "Less swiping. More meeting.",
+    "summary": "An idea for friendships and relationships where meaningful encounters matter more than time spent in an app.",
+    "title": "Real connection instead of endless searching.",
+    "description": "We’re exploring a matching service that helps people find compatible friendships and relationships. A good encounter should count — not the number of messages or the time spent in an app.",
+    "notice": "Meet for Real is a working title and not yet an available service. Success criteria, consent, privacy and a fair pricing model still need to be clarified.",
+    "url": "",
+    "goals": [
+      "Meaningful encounters instead of prolonged use",
+      "Clear pricing and success criteria",
+      "Transparency about real people and AI-based contacts"
+    ],
+    "research": "Preparation includes a fair comparison of existing apps: strengths and limitations, funding, actual costs, cancellation and transparency about AI contacts. Provider claims, verified facts and unconfirmed reports should be clearly separated. The app list and assessment are still pending."
+  },
+  {
+    "id": "safe-steps",
+    "image": "support",
+    "name": "Safe Steps",
+    "category": "Guidance & support",
+    "status": "Project idea · in development",
+    "stage": "idea",
+    "theme": "lavender",
+    "headline": "Finding your way. Step by step.",
+    "summary": "An accessible starting point after fraud: make sense of the situation, understand next steps and find support.",
+    "title": "You shouldn’t have to face the aftermath of fraud alone.",
+    "description": "Safe Steps is an idea for an accessible starting point for people who have experienced fraud. It aims to help them make sense of their situation, understand possible next steps and find suitable support.",
+    "notice": "Safe Steps is a working title and not yet an available advice service. Scope, specialist partnerships and possible fees still need to be clarified. Repayment cannot be guaranteed.",
+    "url": "",
+    "goals": [
+      "Provide clear guidance",
+      "Support the documentation of a case",
+      "Involve suitable advice services and specialists"
+    ],
+    "research": "Possible recovery claims would only be explored where appropriate to the individual case and with suitable specialists involved. Guidance, advice, referrals and support with recovery claims must be clearly distinguished."
+  },
+  {
+    "id": "digital-media-parenting",
+    "image": "family",
+    "stage": "idea",
+    "theme": "peach",
+    "url": "",
+    "name": "Digital Media & Parenting",
+    "category": "Children & digital media",
+    "status": "Project idea · in development",
+    "headline": "Clear guidance. Confident parenting.",
+    "summary": "Practical guidelines and recommendations for parents supporting their children’s use of digital media.",
+    "title": "Helping parents navigate children’s digital lives.",
+    "description": "We want to develop understandable, practical guidelines and recommendations for parents of children using digital media. The aim is to help families make informed decisions, discuss media use together and find an approach that fits their everyday lives.",
+    "notice": "This is a project idea. The guidelines and recommendations have not yet been published; their scope and editorial review still need to be developed.",
+    "goals": [
+      "Give parents clear, practical guidance on children’s use of digital media",
+      "Help families discuss media use and agree on everyday routines",
+      "Make topics such as age-appropriate content, privacy and online safety understandable",
+      "Bring parents’ experience and media education expertise together"
+    ],
+    "research": "We plan to bring together parents, educators and people with expertise in media education. Recommendations should be based on clearly identified sources, reviewed by suitable specialists and updated as digital media changes. The format and age groups are still to be defined."
+  }
+]

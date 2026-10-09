@@ -1,0 +1,166 @@
+{
+  "name": "Here to Help",
+  "tagline": "Helpful technology for real life.",
+  "contactEmail": "",
+  "navigation": [
+    {
+      "label": "Leistungen",
+      "path": "/leistungen"
+    },
+    {
+      "label": "Projekte & Referenzen",
+      "path": "/projekte"
+    },
+    {
+      "label": "Mitwirken",
+      "path": "/mitwirken"
+    },
+    {
+      "label": "Über uns",
+      "path": "/ueber-uns"
+    }
+  ],
+  "principles": [
+    {
+      "title": "Das Problem kommt zuerst.",
+      "text": "Wir beginnen bei einem tatsächlichen Bedürfnis. Technologie ist das Werkzeug, nicht der Ausgangspunkt."
+    },
+    {
+      "title": "Hilfe muss verständlich sein.",
+      "text": "Wir erklären klar, was ein Angebot leisten kann, was es kostet und wo seine Grenzen liegen."
+    },
+    {
+      "title": "Deine Zeit gehört dir.",
+      "text": "Wir wollen Aufgaben einfacher machen und echte Verbindungen ermöglichen. Lange Bildschirmzeit ist kein Erfolgsziel."
+    },
+    {
+      "title": "Vertrauen gehört dazu.",
+      "text": "Datenschutz, faire Preise und klare Erwartungen sind Teil einer guten Nutzererfahrung."
+    },
+    {
+      "title": "Wirkung braucht eine Grundlage.",
+      "text": "Faire Einnahmen sollen die Hilfe und angemessen bezahlte Arbeit ermöglichen. Der Nutzen für Menschen bleibt der Massstab."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Zuhören",
+      "text": "Wir verstehen das Anliegen, die Menschen dahinter und die vorhandenen Möglichkeiten."
+    },
+    {
+      "title": "Zusammenbringen",
+      "text": "Wir verbinden das Vorhaben mit passendem Fachwissen und klären Ziel und Umfang."
+    },
+    {
+      "title": "Erproben",
+      "text": "Wir beraten, entwickeln erste Ansätze und testen früh, was wirklich funktioniert."
+    },
+    {
+      "title": "Verbessern",
+      "text": "Wir lernen aus Rückmeldungen und optimieren die Lösung Schritt für Schritt."
+    }
+  ],
+  "participation": [
+    {
+      "title": "Erfahrungen teilen",
+      "text": "Du kennst ein Problem aus deinem Alltag? Deine Perspektive hilft uns, die richtigen Fragen zu stellen.",
+      "topic": "experience"
+    },
+    {
+      "title": "Wissen einbringen",
+      "text": "Beratung, Entwicklung, Gestaltung oder Fachwissen aus dem sozialen Bereich: Arbeite mit uns an eigenen Projekten und bringe deine Stärken ein.",
+      "topic": "expertise"
+    },
+    {
+      "title": "Ideen erproben",
+      "text": "Hilf uns, erste Ansätze zu verstehen und zu verbessern. Interesse an Tests kannst du schon jetzt vormerken.",
+      "topic": "testing"
+    },
+    {
+      "title": "Partnerschaft prüfen",
+      "text": "Als Organisation oder Fachstelle kannst du mit uns besprechen, wo wir gemeinsam Menschen unterstützen können.",
+      "topic": "partnership"
+    },
+    {
+      "title": "Ein Projekt unterstützen",
+      "text": "Finanzielle Beiträge oder Sachleistungen könnten Entwicklung und Betrieb ermöglichen. Die Bedingungen sind noch in Klärung.",
+      "topic": "support"
+    }
+  ],
+  "services": [
+    {
+      "id": "prototyping",
+      "title": "Rapid Prototyping",
+      "summary": "Eine Idee schnell greifbar machen und mit wenig Aufwand ausprobieren.",
+      "description": "Ein früher Prototyp macht Abläufe und Möglichkeiten sichtbar. Feedback hilft, Annahmen zu prüfen, bevor eine grössere Umsetzung beginnt."
+    },
+    {
+      "id": "ai-consulting",
+      "title": "KI-Beratung",
+      "summary": "Herausfinden, wo KI deinem Vorhaben sinnvoll helfen kann.",
+      "description": "Wir besprechen geeignete Anwendungsfälle, vorhandene Daten und organisatorische Voraussetzungen. Gemeinsam bewerten wir Nutzen, Aufwand und Grenzen und skizzieren einen pragmatischen Einstieg."
+    },
+    {
+      "id": "architecture-review",
+      "title": "Architektur-Review",
+      "summary": "Technische Strukturen prüfen und fundierte nächste Schritte ableiten.",
+      "description": "Wir betrachten Aufbau, Schnittstellen und Abhängigkeiten einer geplanten oder bestehenden Lösung. Wartbarkeit, Erweiterbarkeit und Sicherheit fliessen in konkrete, priorisierte Verbesserungsvorschläge ein."
+    },
+    {
+      "id": "concept-review",
+      "title": "Konzept-Review",
+      "summary": "Ideen hinterfragen und Konzepte vor der Umsetzung schärfen.",
+      "description": "Wir prüfen Ziele, Zielgruppen, Annahmen und geplante Abläufe. So werden offene Fragen, Widersprüche und unnötige Komplexität sichtbar — als Grundlage für ein verständliches, umsetzbares Konzept."
+    },
+    {
+      "id": "consulting",
+      "title": "Beratung & Entwicklung",
+      "summary": "Ein Anliegen verstehen, passende Menschen zusammenbringen und eine hilfreiche Lösung umsetzen.",
+      "description": "Von der Orientierung und technischen Beratung bis zur gezielten Entwicklung: Wir richten die Arbeit an den Bedürfnissen deiner Organisation aus."
+    },
+    {
+      "id": "feasibility",
+      "title": "Machbarkeit prüfen",
+      "summary": "Früh klären, ob und wie sich ein Vorhaben sinnvoll umsetzen lässt.",
+      "description": "Wir prüfen technische Möglichkeiten, Abhängigkeiten und offene Fragen. Daraus entsteht eine Grundlage für den nächsten Schritt."
+    },
+    {
+      "id": "optimisation",
+      "title": "Bestehende Lösungen optimieren",
+      "summary": "Verbessern, was bereits da ist — statt alles neu aufzubauen.",
+      "description": "Wir untersuchen Abläufe, Bedienbarkeit und technische Engpässe und erarbeiten gezielte Verbesserungen für die bestehende Lösung."
+    },
+    {
+      "id": "security",
+      "title": "Sicherheitstests",
+      "summary": "Schwachstellen erkennen und konkrete Verbesserungen ableiten.",
+      "description": "Wir prüfen die vereinbarten Bereiche einer bestehenden Lösung, dokumentieren Risiken und priorisieren mögliche Massnahmen."
+    }
+  ],
+  "budgetSteps": [
+    {
+      "id": "understand",
+      "title": "Anliegen verstehen",
+      "text": "Wir hören zu und versuchen zu verstehen, was deine Organisation erreichen möchte und welche Idee dahintersteht.",
+      "optional": false
+    },
+    {
+      "id": "budget",
+      "title": "Budget besprechen",
+      "text": "Wir sprechen offen über das verfügbare Budget und berücksichtigen bereits eingeplante Fördermittel und freiwillige Beiträge.",
+      "optional": false
+    },
+    {
+      "id": "value",
+      "title": "Den grössten Nutzen finden",
+      "text": "Wir suchen eine möglichst nutzbringende Lösung innerhalb dieses Budgets. Gemeinsam setzen wir Prioritäten und legen einen passenden Umfang fest.",
+      "optional": false
+    },
+    {
+      "id": "network",
+      "title": "Netzwerk einbeziehen",
+      "text": "Wenn weitere Unterstützung sinnvoll ist und noch nicht im Budget berücksichtigt wurde, können wir unser Netzwerk für zusätzliche Fördermittel oder freiwillige Mitarbeit anfragen.",
+      "optional": true
+    }
+  ]
+}

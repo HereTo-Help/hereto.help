@@ -1,0 +1,37 @@
+{
+  "retrievedOn": "2026-10-09",
+  "usage": "Original organisation logos, used unchanged to identify the organisations in founder-supplied project references. Logos remain the property of their respective owners; no endorsement or new partnership is implied.",
+  "logos": [
+    {
+      "file": "ycl.png",
+      "organisation": "Yacht-Club Luzern",
+      "website": "https://www.ycl.ch/",
+      "assetUrl": "https://www.ycl.ch/wp-content/uploads/2024/10/Logo_YCL_Redesign_POS_RGB-300x138.png"
+    },
+    {
+      "file": "bethlehem.jpg",
+      "organisation": "Kinderhilfe Bethlehem",
+      "website": "https://www.kinderhilfe-bethlehem.ch/",
+      "assetUrl": "https://www.kinderhilfe-bethlehem.ch/_Resources/Static/Packages/Ongoing.Base/Images/logo.jpg?bust=d70e2b88"
+    },
+    {
+      "file": "schnittpunkt.png",
+      "organisation": "Atelier Schnittpunkt",
+      "website": "https://www.atelierschnittpunkt.ch/",
+      "assetUrl": "https://static.wixstatic.com/media/9100f9_c991419eb9a84f3498b6cdd1fd95258d~mv2.png"
+    },
+    {
+      "file": "lucouture.png",
+      "organisation": "LuCouture",
+      "website": "https://lu-couture.ch/",
+      "assetUrl": "https://lu-couture.ch/cdn/shop/files/Logo_LU_Couture_black.png?v=1614316122&width=420"
+    }
+  ],
+  "symbols": [
+    {
+      "organisation": "Tierschutzverein Sirius",
+      "icon": "Lucide PawPrint",
+      "reason": "The project owner confirmed that Sirius has no organisation logo and requested a paw icon instead."
+    }
+  ]
+}

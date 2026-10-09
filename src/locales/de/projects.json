@@ -1,0 +1,121 @@
+[
+  {
+    "id": "family-butler",
+    "image": "family",
+    "name": "Family Butler",
+    "category": "Familienalltag",
+    "status": "Kalender & Module · Shared Parenting in Beta",
+    "stage": "existing",
+    "theme": "sage",
+    "headline": "Mehr Überblick. Mehr Miteinander.",
+    "summary": "Familienalltag gemeinsam organisieren: mit Kalender, Kinderbetreuung und einem Shared-Parenting-Modul in der Beta-Testphase.",
+    "title": "Mehr Überblick im Familienalltag.",
+    "description": "Family Butler verbindet eine zentrale Kalenderfunktion mit einem Modul für Kinderbetreuung und einem Shared-Parenting-Modul. Das Shared-Parenting-Modul befindet sich aktuell in der Beta-Testphase. Gemeinsam entwickeln wir die Unterstützung für den Familienalltag weiter.",
+    "notice": "Das Shared-Parenting-Modul befindet sich in der Beta-Testphase. Wir suchen Beta-Testende, Entwicklerinnen und Entwickler sowie Apple-TV-Entwicklerinnen und -Entwickler.",
+    "url": "",
+    "goals": [
+      "Die Organisation im Familienalltag vereinfachen",
+      "Gemeinsame Bedürfnisse in den Mittelpunkt stellen",
+      "Verständliche digitale Unterstützung schaffen"
+    ],
+    "features": [
+      {
+        "title": "Zentraler Kalender",
+        "text": "Die Kalenderfunktion bildet den Kern von Family Butler und unterstützt die gemeinsame Terminorganisation."
+      },
+      {
+        "title": "Modul Kinderbetreuung",
+        "text": "Ein eigenes Modul unterstützt die Organisation der Kinderbetreuung."
+      },
+      {
+        "title": "Modul Shared Parenting",
+        "text": "Unterstützung für die gemeinsame Elternschaft. Dieses Modul befindet sich aktuell in der Beta-Testphase."
+      }
+    ],
+    "recruitment": {
+      "title": "Mach Family Butler mit uns besser.",
+      "text": "Teste das Shared-Parenting-Modul oder bringe deine Entwicklungserfahrung ein. Wir suchen Unterstützung in diesen drei Bereichen:",
+      "roles": [
+        {
+          "id": "beta-testing",
+          "title": "Beta-Testende",
+          "text": "Erprobe das Shared-Parenting-Modul und teile deine Erfahrungen und Rückmeldungen."
+        },
+        {
+          "id": "development",
+          "title": "Entwicklerinnen & Entwickler",
+          "text": "Arbeite an der Weiterentwicklung von Family Butler mit."
+        },
+        {
+          "id": "apple-tv",
+          "title": "Apple-TV-Entwicklung",
+          "text": "Bringe deine Erfahrung in der Entwicklung für Apple TV ein."
+        }
+      ]
+    }
+  },
+  {
+    "id": "meet-for-real",
+    "image": "connection",
+    "name": "Meet for Real",
+    "category": "Echte Verbindungen",
+    "status": "Projektidee · in Entwicklung",
+    "stage": "idea",
+    "theme": "peach",
+    "headline": "Weniger swipen. Mehr begegnen.",
+    "summary": "Eine Idee für Freundschaften und Beziehungen, bei der passende Begegnungen wichtiger sind als Zeit in einer App.",
+    "title": "Echte Verbindung statt endloser Suche.",
+    "description": "Wir prüfen eine Vermittlung, die Menschen bei der Suche nach passenden Freundschaften und Beziehungen unterstützt. Eine gute Begegnung soll zählen — nicht die Zahl der Nachrichten oder die Zeit in der App.",
+    "notice": "Meet for Real ist ein Arbeitstitel und noch kein verfügbares Angebot. Erfolgskriterien, Einwilligung, Privatsphäre und ein faires Preismodell sind noch zu klären.",
+    "url": "",
+    "goals": [
+      "Passende Begegnungen statt langer Nutzung",
+      "Nachvollziehbare Preise und Erfolgskriterien",
+      "Transparenz über reale und KI-basierte Kontakte"
+    ],
+    "research": "Zur Vorarbeit gehört ein fairer Vergleich bestehender Apps: Stärken und Grenzen, Finanzierung, tatsächliche Kosten, Kündbarkeit und Transparenz bei KI-Kontakten. Anbieterangaben, bestätigte Fakten und unbestätigte Berichte sollen klar getrennt werden. Die App-Liste und die Auswertung stehen noch aus."
+  },
+  {
+    "id": "safe-steps",
+    "image": "support",
+    "name": "Safe Steps",
+    "category": "Orientierung & Unterstützung",
+    "status": "Projektidee · in Entwicklung",
+    "stage": "idea",
+    "theme": "lavender",
+    "headline": "Wieder Orientierung. Schritt für Schritt.",
+    "summary": "Eine verständliche Anlaufstelle nach Betrug: die Situation sortieren, nächste Schritte verstehen und Unterstützung finden.",
+    "title": "Nach einem Betrug nicht allein weiter müssen.",
+    "description": "Safe Steps ist die Idee für eine verständliche Anlaufstelle für Menschen, die Betrug erlebt haben. Sie soll helfen, die Situation zu sortieren, mögliche nächste Schritte zu verstehen und passende Unterstützung zu finden.",
+    "notice": "Safe Steps ist ein Arbeitstitel und noch kein verfügbares Beratungsangebot. Umfang, Fachpartnerschaften und mögliche Gebühren sind noch zu klären. Eine Rückzahlung kann nicht garantiert werden.",
+    "url": "",
+    "goals": [
+      "Verständliche Orientierung ermöglichen",
+      "Bei der Dokumentation eines Falls unterstützen",
+      "Geeignete Beratung und Fachstellen einbinden"
+    ],
+    "research": "Mögliche Rückforderungen würden nur geprüft, wenn sie im Einzelfall sinnvoll sind und geeignete Fachstellen eingebunden werden können. Orientierung, Beratung, Vermittlung und Unterstützung bei Rückforderungen müssen klar voneinander unterschieden werden."
+  },
+  {
+    "id": "digital-media-parenting",
+    "image": "family",
+    "stage": "idea",
+    "theme": "peach",
+    "url": "",
+    "name": "Digitale Medien & Elternschaft",
+    "category": "Kinder & digitale Medien",
+    "status": "Projektidee · in Entwicklung",
+    "headline": "Klare Orientierung. Sicherer begleiten.",
+    "summary": "Praktische Leitlinien und Empfehlungen für Eltern, die ihre Kinder beim Umgang mit digitalen Medien begleiten.",
+    "title": "Kinder in der digitalen Welt begleiten.",
+    "description": "Wir möchten verständliche, alltagstaugliche Leitlinien und Empfehlungen für Eltern von Kindern entwickeln, die digitale Medien nutzen. Sie sollen Familien helfen, informierte Entscheidungen zu treffen, gemeinsam über Mediennutzung zu sprechen und einen passenden Umgang für ihren Alltag zu finden.",
+    "notice": "Dieses Vorhaben ist eine Projektidee. Die Leitlinien und Empfehlungen sind noch nicht veröffentlicht; Umfang und fachliche Prüfung werden erst erarbeitet.",
+    "goals": [
+      "Eltern verständliche, praktische Orientierung zur digitalen Mediennutzung ihrer Kinder geben",
+      "Familien dabei unterstützen, über Mediennutzung zu sprechen und gemeinsame Alltagsregeln zu finden",
+      "Themen wie altersgerechte Inhalte, Privatsphäre und Online-Sicherheit verständlich machen",
+      "Erfahrungen von Eltern und medienpädagogisches Fachwissen zusammenbringen"
+    ],
+    "research": "Wir möchten Eltern, pädagogische Fachpersonen und Menschen mit medienpädagogischem Wissen zusammenbringen. Empfehlungen sollen auf nachvollziehbaren Quellen beruhen, fachlich geprüft und bei Veränderungen digitaler Medien aktualisiert werden. Format und Altersgruppen sind noch festzulegen."
+  }
+]

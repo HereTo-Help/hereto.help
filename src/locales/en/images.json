@@ -1,0 +1,42 @@
+{
+  "family": {
+    "file": "family",
+    "alt": "AI-generated scene: a family talking over breakfast together.",
+    "position": "50% 42%"
+  },
+  "connection": {
+    "file": "connection",
+    "alt": "AI-generated scene: three adults sharing a conversation at a street cafe.",
+    "position": "50% 40%"
+  },
+  "support": {
+    "file": "support",
+    "alt": "AI-generated scene: two adults listening to each other and discussing notes.",
+    "position": "50% 40%"
+  },
+  "collaboration": {
+    "file": "collaboration",
+    "alt": "AI-generated scene: four people listening to each other during a shared ideas workshop.",
+    "position": "50% 42%"
+  },
+  "reference-sailing": {
+    "file": "reference-sailing",
+    "alt": "AI-generated thematic image: sailing boats on a lake and a laptop at the marina.",
+    "position": "50% 50%"
+  },
+  "reference-communications": {
+    "file": "reference-communications",
+    "alt": "AI-generated thematic image: a laptop and networking equipment in a bright administration room.",
+    "position": "50% 50%"
+  },
+  "reference-adoption": {
+    "file": "reference-adoption",
+    "alt": "AI-generated thematic image: a dog and a cat in a welcoming animal care room.",
+    "position": "50% 50%"
+  },
+  "reference-fashion": {
+    "file": "reference-fashion",
+    "alt": "AI-generated thematic image: fabrics, patterns and sewing tools in a fashion atelier.",
+    "position": "50% 50%"
+  }
+}

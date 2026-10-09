@@ -1,0 +1,166 @@
+{
+  "name": "Here to Help",
+  "tagline": "Helpful technology for real life.",
+  "contactEmail": "",
+  "navigation": [
+    {
+      "label": "Services",
+      "path": "/leistungen"
+    },
+    {
+      "label": "Projects & references",
+      "path": "/projekte"
+    },
+    {
+      "label": "Get involved",
+      "path": "/mitwirken"
+    },
+    {
+      "label": "About us",
+      "path": "/ueber-uns"
+    }
+  ],
+  "principles": [
+    {
+      "title": "The problem comes first.",
+      "text": "We start with a real need. Technology is the tool, not the starting point."
+    },
+    {
+      "title": "Help should be easy to understand.",
+      "text": "We clearly explain what a service can do, what it costs and where its limits are."
+    },
+    {
+      "title": "Your time belongs to you.",
+      "text": "We want to make tasks easier and enable real connections. Long screen time is not a measure of success."
+    },
+    {
+      "title": "Trust is part of the experience.",
+      "text": "Privacy, fair pricing and clear expectations belong to a good user experience."
+    },
+    {
+      "title": "Impact needs a foundation.",
+      "text": "Fair revenue should make support and fairly paid work possible. Benefit to people remains our measure of success."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Listen",
+      "text": "We understand the initiative, the people behind it and the available resources."
+    },
+    {
+      "title": "Connect",
+      "text": "We bring in suitable expertise and agree on goals and scope."
+    },
+    {
+      "title": "Try",
+      "text": "We advise, develop early approaches and test what actually works."
+    },
+    {
+      "title": "Improve",
+      "text": "We learn from feedback and improve the solution step by step."
+    }
+  ],
+  "participation": [
+    {
+      "title": "Share experiences",
+      "text": "Do you know a problem from everyday life? Your perspective helps us ask the right questions.",
+      "topic": "experience"
+    },
+    {
+      "title": "Contribute expertise",
+      "text": "Advice, development, design or expertise in social work: contribute your strengths to our own projects.",
+      "topic": "expertise"
+    },
+    {
+      "title": "Try out ideas",
+      "text": "Help us understand and improve early approaches. You can already express an interest in testing.",
+      "topic": "testing"
+    },
+    {
+      "title": "Explore a partnership",
+      "text": "As an organisation or specialist service, you can discuss how we might support people together.",
+      "topic": "partnership"
+    },
+    {
+      "title": "Support a project",
+      "text": "Financial or in-kind contributions could enable development and operations. The terms are still being clarified.",
+      "topic": "support"
+    }
+  ],
+  "services": [
+    {
+      "id": "prototyping",
+      "title": "Rapid prototyping",
+      "summary": "Make an idea tangible quickly and try it with limited effort.",
+      "description": "An early prototype makes workflows and possibilities visible. Feedback helps test assumptions before a larger implementation begins."
+    },
+    {
+      "id": "ai-consulting",
+      "title": "AI consulting",
+      "summary": "Identify where AI can make a useful contribution to your initiative.",
+      "description": "We discuss suitable use cases, available data and organisational prerequisites. Together, we assess value, effort and limitations and outline a practical starting point."
+    },
+    {
+      "id": "architecture-review",
+      "title": "Architecture review",
+      "summary": "Examine technical structures and identify informed next steps.",
+      "description": "We review the structure, interfaces and dependencies of a planned or existing solution. Maintainability, extensibility and security inform concrete, prioritised improvement proposals."
+    },
+    {
+      "id": "concept-review",
+      "title": "Concept review",
+      "summary": "Challenge assumptions and refine a concept before implementation.",
+      "description": "We examine goals, audiences, assumptions and planned workflows. This reveals open questions, inconsistencies and unnecessary complexity, providing a basis for a clear, implementable concept."
+    },
+    {
+      "id": "consulting",
+      "title": "Advice & development",
+      "summary": "Understand a need, connect the right people and implement a useful solution.",
+      "description": "From initial guidance and technical advice to focused development, we shape the work around your organisation’s needs."
+    },
+    {
+      "id": "feasibility",
+      "title": "Feasibility assessments",
+      "summary": "Find out early whether and how an initiative can be implemented usefully.",
+      "description": "We examine technical options, dependencies and open questions to provide a basis for the next step."
+    },
+    {
+      "id": "optimisation",
+      "title": "Optimise existing solutions",
+      "summary": "Improve what is already there instead of starting from scratch.",
+      "description": "We examine workflows, usability and technical bottlenecks and propose targeted improvements to the existing solution."
+    },
+    {
+      "id": "security",
+      "title": "Security testing",
+      "summary": "Identify weaknesses and turn findings into practical improvements.",
+      "description": "We examine the agreed areas of an existing solution, document risks and prioritise possible actions."
+    }
+  ],
+  "budgetSteps": [
+    {
+      "id": "understand",
+      "title": "Understand the need",
+      "text": "We listen and try to understand what your organisation wants to achieve and the idea behind it.",
+      "optional": false
+    },
+    {
+      "id": "budget",
+      "title": "Discuss the budget",
+      "text": "We talk openly about the available budget, including funding and voluntary contributions already factored in.",
+      "optional": false
+    },
+    {
+      "id": "value",
+      "title": "Find the greatest value",
+      "text": "We look for the most useful solution within that budget. Together, we prioritise needs and agree on a suitable scope.",
+      "optional": false
+    },
+    {
+      "id": "network",
+      "title": "Draw on our network",
+      "text": "If further support would help and has not already been included in the budget, we can approach our network for additional funding or voluntary contributions.",
+      "optional": true
+    }
+  ]
+}

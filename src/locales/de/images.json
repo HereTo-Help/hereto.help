@@ -1,0 +1,42 @@
+{
+  "family": {
+    "file": "family",
+    "alt": "KI-generierte Bildszene: Eine Familie unterhält sich beim gemeinsamen Frühstück.",
+    "position": "50% 42%"
+  },
+  "connection": {
+    "file": "connection",
+    "alt": "KI-generierte Bildszene: Drei Erwachsene teilen ein Gespräch in einem Strassencafé.",
+    "position": "50% 40%"
+  },
+  "support": {
+    "file": "support",
+    "alt": "KI-generierte Bildszene: Zwei Erwachsene hören einander zu und besprechen Notizen.",
+    "position": "50% 40%"
+  },
+  "collaboration": {
+    "file": "collaboration",
+    "alt": "KI-generierte Bildszene: Vier Menschen hören einander bei einem gemeinsamen Ideenworkshop zu.",
+    "position": "50% 42%"
+  },
+  "reference-sailing": {
+    "file": "reference-sailing",
+    "alt": "KI-generierte Themenwelt: Segelboote auf einem See und ein Laptop am Hafen.",
+    "position": "50% 50%"
+  },
+  "reference-communications": {
+    "file": "reference-communications",
+    "alt": "KI-generierte Themenwelt: Laptop und Netzwerkgeräte in einem hellen Verwaltungsraum.",
+    "position": "50% 50%"
+  },
+  "reference-adoption": {
+    "file": "reference-adoption",
+    "alt": "KI-generierte Themenwelt: Ein Hund und eine Katze in einem freundlichen Tierbetreuungsraum.",
+    "position": "50% 50%"
+  },
+  "reference-fashion": {
+    "file": "reference-fashion",
+    "alt": "KI-generierte Themenwelt: Stoffe, Schnittmuster und Nähwerkzeug in einem Modeatelier.",
+    "position": "50% 50%"
+  }
+}

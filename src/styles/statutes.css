@@ -1,0 +1,144 @@
+.statutes-page {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.statutes-heading {
+  max-width: 850px;
+  margin-bottom: 32px;
+}
+.statutes-heading h1 {
+  font-size: clamp(36px, 5vw, 62px);
+  margin-block: 20px;
+}
+.statutes-meta,
+.statutes-language {
+  color: #53635f;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.statutes-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.statutes-actions .text-link {
+  font-size: 14px;
+}
+.statutes-layout {
+  display: grid;
+  grid-template-columns: 270px minmax(0, 1fr);
+  gap: 60px;
+  margin-top: 48px;
+}
+.statutes-toc {
+  align-self: start;
+  position: sticky;
+  top: 100px;
+  padding: 24px;
+  background: #eef7f6;
+  border-radius: 16px;
+  max-height: calc(100vh - 130px);
+  overflow-y: auto;
+}
+.statutes-toc h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.statutes-toc a {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  padding-block: 7px;
+}
+.statutes-body section {
+  margin-bottom: 42px;
+}
+.statutes-body h2 {
+  font-size: 25px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  scroll-margin-top: 110px;
+}
+.statutes-body ol,
+.statutes-body ul {
+  padding-left: 24px;
+}
+.statutes-body li,
+.statutes-body p {
+  color: #53635f;
+  font-size: 15px;
+  line-height: 1.85;
+  margin-bottom: 16px;
+  overflow-wrap: anywhere;
+}
+.statutes-body a {
+  color: #007f73;
+  text-decoration: underline;
+}
+.statutes-adoption {
+  background: #fff7d8;
+  padding: 26px;
+  border-radius: 16px;
+}
+@media (max-width: 900px) {
+  .statutes-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .statutes-toc {
+    position: static;
+    max-height: none;
+  }
+}
+@media (max-width: 600px) {
+  .statutes-page {
+    padding-top: 40px;
+  }
+  .statutes-body h2 {
+    font-size: 22px;
+  }
+  .statutes-adoption {
+    padding: 20px;
+  }
+  .statutes-actions .rt-Button {
+    white-space: normal;
+    height: auto;
+    min-height: 44px;
+  }
+}
+@media print {
+  .site-header,
+  .site-footer,
+  .skip-link,
+  .statutes-actions,
+  .statutes-toc,
+  .statutes-language {
+    display: none !important;
+  }
+  .statutes-page {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+  .statutes-layout {
+    display: block;
+    margin-top: 24px;
+  }
+  .statutes-heading h1 {
+    font-size: 26pt;
+  }
+  .statutes-body h2 {
+    font-size: 15pt;
+    break-after: avoid;
+  }
+  .statutes-body li {
+    font-size: 10pt;
+    line-height: 1.5;
+  }
+  .statutes-toc,
+  .statutes-adoption {
+    background: none;
+  }
+}
