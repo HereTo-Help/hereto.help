@@ -80,7 +80,7 @@ export function AnimatedLogo() {
       />
       <img
         className="brand-logo animated-logo-mobile"
-        src={`${import.meta.env.BASE_URL}logo-heretohelp-light.svg`}
+        src={`${import.meta.env.BASE_URL}logos/logo-heretohelp-light.svg`}
         alt=""
       />
     </a>

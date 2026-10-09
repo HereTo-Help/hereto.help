@@ -151,7 +151,7 @@ export function Layout({
               <a className="brand" href="#/">
                 <img
                   className="brand-logo"
-                  src={`${import.meta.env.BASE_URL}logo-heretohelp-dark.svg`}
+                  src={`${import.meta.env.BASE_URL}logos/logo-heretohelp-dark.svg`}
                   alt="Here to Help"
                 />
               </a>
