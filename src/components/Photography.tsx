@@ -2,20 +2,20 @@ import { useTranslation } from 'react-i18next';
 import { getProject } from '../services/content';
 import { Photo } from './Photo';
 
-export function HeroPhotography() {
+export function HeroTrailer() {
   const { t } = useTranslation();
 
   return (
-    <div className="hero-photography">
-      <div className="hero-photo-main">
-        <Photo image="collaboration" priority />
-        <span className="photo-label">{t('photography.heroLabel')}</span>
-      </div>
-      <div className="hero-photo-pair">
-        <Photo image="connection" />
-        <Photo image="support" />
-      </div>
-      <span className="photo-credit">{t('photography.credit')}</span>
+    <div className="hero-trailer">
+      <video
+        aria-label={t('homePage.trailerLabel')}
+        controls
+        playsInline
+        preload="metadata"
+      >
+        <source src="/trailer_en.mp4" type="video/mp4" />
+        {t('homePage.trailerUnsupported')}
+      </video>
     </div>
   );
 }
