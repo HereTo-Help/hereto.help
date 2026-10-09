@@ -38,13 +38,8 @@
   .header-inner {
     gap: 9px;
   }
-  .header-inner .brand {
-    font-size: 18px;
-  }
-  .header-inner .brand-mark {
-    width: 30px;
-    height: 30px;
-    margin-right: 7px;
+  .header-inner .brand-logo {
+    width: min(145px, 42vw);
   }
   .language-switcher button {
     padding-inline: 6px;

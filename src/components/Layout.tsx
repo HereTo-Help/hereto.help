@@ -64,11 +64,12 @@ export function Layout({
       </a>
       <header className="site-header">
         <div className="container header-inner">
-          <a className="brand" href="#/" aria-label={t('layout.homeLabel')}>
-            <span className="brand-mark">
-              <HandHeart size={23} />
-            </span>
-            here to help<span className="brand-period">.</span>
+          <a className="brand" href="#/" aria-label="Here to Help">
+            <img
+              className="brand-logo"
+              src={`${import.meta.env.BASE_URL}logo-heretohelp-light.svg`}
+              alt=""
+            />
           </a>
           <nav className="desktop-nav" aria-label={t('layout.navigation')}>
             {site.navigation.map((item) => (
