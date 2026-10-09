@@ -1,0 +1,23 @@
+.animated-logo-artwork {
+  display: block;
+  width: clamp(200px, 20vw, 240px);
+  aspect-ratio: 580 / 128;
+  pointer-events: none;
+}
+.animated-logo-artwork svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.animated-logo .animated-logo-mobile {
+  display: none;
+}
+@media (max-width: 1050px) {
+  .animated-logo-artwork {
+    display: none;
+  }
+  .animated-logo .animated-logo-mobile {
+    display: block;
+  }
+}
