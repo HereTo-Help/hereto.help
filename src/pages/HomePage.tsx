@@ -45,6 +45,18 @@ export function HomePage() {
         </div>
         <HeroPhotography />
       </section>
+      <section className="trailer-section section container">
+        <h2>{t('homePage.trailerTitle')}</h2>
+        <video
+          aria-label={t('homePage.trailerLabel')}
+          controls
+          playsInline
+          preload="metadata"
+        >
+          <source src="/trailer_en.mp4" type="video/mp4" />
+          {t('homePage.trailerUnsupported')}
+        </video>
+      </section>
       <ValueStrip />
       <section className="section container mission-section">
         <div>
