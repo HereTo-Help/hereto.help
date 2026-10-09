@@ -111,4 +111,17 @@ git push -u origin main
 
 For later updates, review `git diff`, run the project checks, then stage and commit the intended files before pushing. GitHub may ask you to sign in using Git Credential Manager.
 
-Pushing the source does not publish the website. Static hosting is configured separately; see the Publishing section and its launch prerequisites.
+### GitHub Pages
+
+The workflow in `.github/workflows/pages.yml` installs dependencies, runs lint and tests, builds the website and deploys only `dist/`. It runs on pushes to `main` and can also be started manually.
+
+One-time setup:
+
+1. Open the repository Settings > Pages.
+2. Under Build and deployment, select GitHub Actions as the Source.
+3. Open Actions > Deploy website to GitHub Pages > Run workflow and choose `main` if the initial run occurred before Pages was enabled.
+4. Wait for both build and deploy jobs to succeed.
+
+The default website address is `https://hereto-help.github.io/hereto.help/`. The existing relative Vite base and hash routing support this repository subdirectory. A custom domain can be configured separately in Pages settings after DNS is ready.
+
+After setup, pushes to `main` automatically update the published website. The launch prerequisites in the Publishing section still apply. `public/staticwebapp.config.json` is specific to Azure Static Web Apps; GitHub Pages does not apply its custom response headers.
