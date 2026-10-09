@@ -133,12 +133,14 @@ describe('reversible logo playback', () => {
     const render = vi.fn();
     const playback = createLogoPlayback(render);
     playback.setActive(true);
+    frame(0);
     for (let i = 1; i <= 10; i++) {
       frame(LOGO_DURATION / 10);
       expect(render).toHaveBeenLastCalledWith(expect.closeTo(i / 10));
     }
     expect(callbacks.size).toBe(0);
     playback.setActive(false);
+    frame(0);
     frame(325);
     expect(render).toHaveBeenLastCalledWith(0.5);
     frame(325);
@@ -150,6 +152,7 @@ describe('reversible logo playback', () => {
     const render = vi.fn();
     const playback = createLogoPlayback(render);
     playback.setActive(true);
+    frame(0);
     frame(260);
     now += 65;
     playback.setActive(false);
@@ -167,7 +170,44 @@ describe('reversible logo playback', () => {
     expect(render).toHaveBeenLastCalledWith(1);
   });
 
-  it('cancels callbacks on cleanup and applies reduced-motion states immediately', () => {
+  it('renders a full animation even when the first callback is delayed', () => {
+    const render = vi.fn();
+    const playback = createLogoPlayback(render);
+    playback.setActive(true);
+    frame(1000);
+    expect(render).toHaveBeenLastCalledWith(0);
+    frame(325);
+    expect(render).toHaveBeenLastCalledWith(0.5);
+    frame(325);
+    expect(render).toHaveBeenLastCalledWith(1);
+    playback.setActive(false);
+    frame(1000);
+    expect(render).toHaveBeenLastCalledWith(1);
+    frame(325);
+    expect(render).toHaveBeenLastCalledWith(0.5);
+    frame(325);
+    expect(render).toHaveBeenLastCalledWith(0);
+  });
+
+  it('handles entry and exit before the first frame without skipping motion', () => {
+    const render = vi.fn();
+    const playback = createLogoPlayback(render);
+    playback.setActive(true);
+    now += 1000;
+    playback.setActive(false);
+    playback.setActive(true);
+    expect(render).not.toHaveBeenCalled();
+    expect(callbacks.size).toBe(1);
+    frame(1000);
+    expect(render).toHaveBeenLastCalledWith(0);
+    frame(325);
+    expect(render).toHaveBeenLastCalledWith(0.5);
+    playback.setActive(false, true);
+    expect(render).toHaveBeenLastCalledWith(0);
+    expect(callbacks.size).toBe(0);
+  });
+
+  it('cancels callbacks on cleanup and applies static states immediately', () => {
     const render = vi.fn();
     const playback = createLogoPlayback(render);
     playback.setActive(true);

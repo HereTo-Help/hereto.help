@@ -29,7 +29,7 @@ export function AnimatedLogo() {
     });
     const update = () =>
       playback.setActive(
-        desktop.matches && (hovered || focused),
+        desktop.matches && !reducedMotion.matches && (hovered || focused),
         !desktop.matches || reducedMotion.matches,
       );
     const enter = () => {

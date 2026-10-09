@@ -1,6 +1,6 @@
 .animated-logo-artwork {
   display: block;
-  width: 170px;
+  width: clamp(200px, 20vw, 240px);
   aspect-ratio: 580 / 128;
   pointer-events: none;
 }
