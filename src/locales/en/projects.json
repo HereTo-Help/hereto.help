@@ -83,18 +83,19 @@
     "status": "Project idea · in development",
     "stage": "idea",
     "theme": "lavender",
-    "headline": "Finding your way. Step by step.",
-    "summary": "An accessible starting point after fraud: make sense of the situation, understand next steps and find support.",
-    "title": "You shouldn’t have to face the aftermath of fraud alone.",
-    "description": "Safe Steps is an idea for an accessible starting point for people who have experienced fraud. It aims to help them make sense of their situation, understand possible next steps and find suitable support.",
+    "headline": "Recognise fraud. Prevent it. Find guidance.",
+    "summary": "A project idea for prevention and guidance: recognise fraud risks, understand ways to reduce them and find support after an incident.",
+    "title": "Recognise fraud and be better prepared.",
+    "description": "Safe Steps is an idea for clear information about how digital technologies are used for fraud and how people can recognise fraudulent tactics. It aims to support prevention and also help people who have experienced fraud make sense of the situation, understand possible next steps and find suitable support.",
     "notice": "Safe Steps is a working title and not yet an available advice service. Scope, specialist partnerships and possible fees still need to be clarified. Repayment cannot be guaranteed.",
     "url": "",
     "goals": [
-      "Provide clear guidance",
-      "Support the documentation of a case",
-      "Involve suitable advice services and specialists"
+      "Explain the risks of digital technologies and fraud schemes",
+      "Help people recognise warning signs of fraudulent tactics",
+      "Promote practical preventive steps",
+      "Help people find guidance and suitable specialists after an incident"
     ],
-    "research": "Possible recovery claims would only be explored where appropriate to the individual case and with suitable specialists involved. Guidance, advice, referrals and support with recovery claims must be clearly distinguished."
+    "research": "It remains to be explored what prevention information could help people recognise fraud attempts and reduce risks in everyday life. Information about digital technologies and current fraud schemes would need clear sources and expert review. Guidance, advice, referrals and post-fraud support would need to be clearly distinguished; protection from fraud or repayment could not be guaranteed."
   },
   {
     "id": "digital-media-parenting",

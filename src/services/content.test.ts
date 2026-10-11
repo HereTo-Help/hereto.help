@@ -25,6 +25,20 @@ describe('editable project content', () => {
       expect(getProject(project.id)).toEqual(project);
     expect(getProject('missing')).toBeUndefined();
   });
+  it('describes Safe Steps as a prevention and post-fraud project idea in both languages', () => {
+    const german = getProject('safe-steps', 'de');
+    const english = getProject('safe-steps', 'en');
+
+    expect(german?.stage).toBe('idea');
+    expect(german?.description).toMatch(/erkennen können/);
+    expect(german?.description).toMatch(/zur Prävention/);
+    expect(german?.description).toMatch(/nach einem Betrug/);
+
+    expect(english?.stage).toBe('idea');
+    expect(english?.description).toMatch(/recognise fraudulent tactics/);
+    expect(english?.description).toMatch(/support prevention/);
+    expect(english?.description).toMatch(/experienced fraud/);
+  });
   it('keeps an unconfirmed contact address unset', () => {
     const email = getSiteContent().contactEmail;
     expect(email === '' || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)).toBe(true);
