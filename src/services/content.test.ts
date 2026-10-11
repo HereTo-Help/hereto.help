@@ -39,6 +39,32 @@ describe('editable project content', () => {
     expect(english?.description).toMatch(/support prevention/);
     expect(english?.description).toMatch(/experienced fraud/);
   });
+  it('describes stammbeiz.li as a historical project in both languages', () => {
+    const german = getProject('stammbeiz-li', 'de');
+    const english = getProject('stammbeiz-li', 'en');
+
+    expect(german?.stage).toBe('existing');
+    expect(german?.description).toMatch(/SpatialChat/);
+    expect(german?.description).toMatch(/zwei Bars/);
+    expect(german?.features?.map(({ text }) => text).join(' ')).toMatch(
+      /Appenzeller.*nach Hause/,
+    );
+    expect(german?.features?.map(({ text }) => text).join(' ')).toMatch(
+      /Burger.*abgeholt/,
+    );
+    expect(german?.notice).toMatch(/keine aktuellen Angebote/);
+
+    expect(english?.stage).toBe('existing');
+    expect(english?.description).toMatch(/SpatialChat/);
+    expect(english?.description).toMatch(/two bars and restaurants/);
+    expect(english?.features?.map(({ text }) => text).join(' ')).toMatch(
+      /Appenzeller.*sent to participants at home/,
+    );
+    expect(english?.features?.map(({ text }) => text).join(' ')).toMatch(
+      /Burgers.*pre-ordered.*collected/,
+    );
+    expect(english?.notice).toMatch(/not currently available/);
+  });
   it('keeps an unconfirmed contact address unset', () => {
     const email = getSiteContent().contactEmail;
     expect(email === '' || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)).toBe(true);

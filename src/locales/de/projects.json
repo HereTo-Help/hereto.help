@@ -55,6 +55,40 @@
     }
   },
   {
+    "id": "stammbeiz-li",
+    "image": "connection",
+    "name": "stammbeiz.li",
+    "category": "Virtuelle Begegnungen",
+    "status": "Projekt aus der Corona-Zeit",
+    "stage": "existing",
+    "theme": "sage",
+    "headline": "Das Stammbeizli virtuell erleben.",
+    "summary": "Ein digitaler Treffpunkt brachte während der Corona-Zeit das Gefühl von Bar- und Restaurantbesuchen zurück.",
+    "title": "Zusammenkommen, als persönliche Treffen kaum möglich waren.",
+    "description": "Während der Corona-Zeit und der Ausgangsbeschränkungen unterstützten und entwickelten wir stammbeiz.li. Mit SpatialChat wurden die Räume von zwei Bars beziehungsweise Restaurants virtuell nachgebaut. Anders als in einem gewöhnlichen Chat oder einer geschlossenen Gruppe konnten sich die Gäste frei durch die Räume bewegen, sich an Tische setzen und miteinander sprechen.",
+    "notice": "Ein historischer Rückblick auf ein Projekt aus der Corona-Zeit. SpatialChat, Bier-Tasting und Burger-Angebot sind keine aktuellen Angebote.",
+    "url": "",
+    "goals": [
+      "Begegnungen ermöglichen, wenn persönliche Treffen nicht möglich waren",
+      "Das spontane Zusammensitzen in einer Bar oder einem Restaurant virtuell nachbilden",
+      "Gemeinsame Erlebnisse auch von zu Hause aus ermöglichen"
+    ],
+    "features": [
+      {
+        "title": "Virtuelle Räume zum Bewegen",
+        "text": "Zwei Bars und Restaurants wurden in SpatialChat nachgebaut. Gäste konnten sich frei bewegen, an Tische gesellen und miteinander sprechen."
+      },
+      {
+        "title": "Appenzeller Bier-Tasting",
+        "text": "In einer Bar wurde ein Appenzeller Bier-Tasting angeboten. Das Tasting-Set wurde den Teilnehmenden nach Hause geschickt."
+      },
+      {
+        "title": "Burger zum Abholen",
+        "text": "Im Restaurant konnten Burger vorbestellt und anschliessend «über die Gasse» abgeholt werden."
+      }
+    ]
+  },
+  {
     "id": "meet-for-real",
     "image": "connection",
     "name": "Meet for Real",
