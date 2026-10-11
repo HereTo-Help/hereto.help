@@ -83,18 +83,19 @@
     "status": "Projektidee · in Entwicklung",
     "stage": "idea",
     "theme": "lavender",
-    "headline": "Wieder Orientierung. Schritt für Schritt.",
-    "summary": "Eine verständliche Anlaufstelle nach Betrug: die Situation sortieren, nächste Schritte verstehen und Unterstützung finden.",
-    "title": "Nach einem Betrug nicht allein weiter müssen.",
-    "description": "Safe Steps ist die Idee für eine verständliche Anlaufstelle für Menschen, die Betrug erlebt haben. Sie soll helfen, die Situation zu sortieren, mögliche nächste Schritte zu verstehen und passende Unterstützung zu finden.",
+    "headline": "Betrug erkennen. Vorbeugen. Orientierung finden.",
+    "summary": "Eine Projektidee für Prävention und Orientierung: Betrugsrisiken erkennen, vorbeugende Schritte verstehen und nach einem Vorfall Unterstützung finden.",
+    "title": "Betrug erkennen und gut vorbereitet sein.",
+    "description": "Safe Steps ist die Idee für verständliche Informationen dazu, wie digitale Technologien für Betrug eingesetzt werden und woran Menschen betrügerische Vorgehensweisen erkennen können. Sie soll zur Prävention beitragen und zugleich Menschen nach einem Betrug helfen, die Situation einzuordnen, mögliche nächste Schritte zu verstehen und passende Unterstützung zu finden.",
     "notice": "Safe Steps ist ein Arbeitstitel und noch kein verfügbares Beratungsangebot. Umfang, Fachpartnerschaften und mögliche Gebühren sind noch zu klären. Eine Rückzahlung kann nicht garantiert werden.",
     "url": "",
     "goals": [
-      "Verständliche Orientierung ermöglichen",
-      "Bei der Dokumentation eines Falls unterstützen",
-      "Geeignete Beratung und Fachstellen einbinden"
+      "Risiken digitaler Technologien und Betrugsmaschen verständlich machen",
+      "Warnzeichen betrügerischer Vorgehensweisen erkennen",
+      "Alltagstaugliche vorbeugende Schritte fördern",
+      "Nach einem Vorfall Orientierung und passende Fachstellen finden"
     ],
-    "research": "Mögliche Rückforderungen würden nur geprüft, wenn sie im Einzelfall sinnvoll sind und geeignete Fachstellen eingebunden werden können. Orientierung, Beratung, Vermittlung und Unterstützung bei Rückforderungen müssen klar voneinander unterschieden werden."
+    "research": "Noch zu klären ist, welche Präventionsinformationen Menschen im Alltag dabei helfen können, Betrugsversuche zu erkennen und Risiken zu verringern. Inhalte zu digitalen Technologien und aktuellen Betrugsmaschen müssten nachvollziehbar belegt und fachlich geprüft werden. Orientierung, Beratung, Vermittlung und Unterstützung nach einem Betrug wären klar voneinander zu unterscheiden; Schutz vor Betrug oder eine Rückzahlung könnten nicht garantiert werden."
   },
   {
     "id": "digital-media-parenting",
