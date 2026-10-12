@@ -1,3 +1,4 @@
+import { SiteLink } from './SiteLink';
 import { Button } from '@radix-ui/themes';
 import { ArrowUpRight } from 'lucide-react';
 import type { ReactNode } from 'react';
@@ -18,10 +19,10 @@ export function LinkButton({
       className={`link-button ${secondary ? 'secondary' : ''}`}
       asChild
     >
-      <a href={href}>
+      <SiteLink href={href}>
         {children}
         <ArrowUpRight size={17} />
-      </a>
+      </SiteLink>
     </Button>
   );
 }

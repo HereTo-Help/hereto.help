@@ -162,5 +162,23 @@
       "text": "If further support would help and has not already been included in the budget, we can approach our network for additional funding or voluntary contributions.",
       "optional": true
     }
+  ],
+  "serviceFAQs": [
+    {
+      "question": "Who is the technical support intended for?",
+      "answer": "Here to Help focuses especially on smaller organisations and initiatives with social and human aims that lack their own development resources. We connect their needs with suitable expertise and explore what support would be useful."
+    },
+    {
+      "question": "How does a project with a small budget begin?",
+      "answer": "We first understand the need and the idea. Then we discuss the available budget and look for the most useful solution within it. We can optionally explore additional funding or voluntary contributions together; neither is promised."
+    },
+    {
+      "question": "How are scope and payment agreed?",
+      "answer": "Goals, scope and constraints are discussed together. For paid project work, services and payment are agreed in writing before work starts, and funding is clarified. Security testing also requires documented authorisation and a defined scope."
+    },
+    {
+      "question": "Can I contribute to your own projects?",
+      "answer": "Yes, our own projects welcome consulting and development contributions. Design, specialist knowledge and everyday experience can also help. Voluntary contributions are explicitly agreed and are not a membership obligation. Each project page explains its current status and open questions."
+    }
   ]
 }

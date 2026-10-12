@@ -1,0 +1,44 @@
+{
+  "pages": {
+    "/": {
+      "title": "Technologie für soziale Vorhaben in der Schweiz",
+      "description": "Here to Help verbindet Menschen und Fachwissen: Beratung, KI und Entwicklung für kleinere Organisationen mit sozialen Anliegen. Eigene Projekte entdecken und mitwirken."
+    },
+    "/leistungen": {
+      "title": "KI-Beratung, Prototyping und Entwicklung",
+      "description": "Technische Unterstützung für kleinere Organisationen: Rapid Prototyping, KI-Beratung, Architektur-Reviews und Entwicklung. Anliegen verstehen, Budget klären, Nutzen schaffen."
+    },
+    "/projekte": {
+      "title": "Eigene Projekte und Projektideen",
+      "description": "Entdecke Family Butler, stammbeiz.li und unsere Projektideen für Begegnungen, Betrugsprävention und digitale Medien. Mit transparentem Projektstatus und Möglichkeiten zur Mitarbeit."
+    },
+    "/referenzen": {
+      "title": "Persönliche Projekterfahrung",
+      "description": "Erfahrung mit Vereinsinfrastruktur, Regatta-Prototypen, Kommunikation für ein Kinderspital, Tiervermittlung und Modefotografie, die in Here to Help einfliesst."
+    },
+    "/arbeitsweise": {
+      "title": "Unsere Arbeitsweise",
+      "description": "Erst das Anliegen verstehen, dann Menschen und Fachwissen zusammenbringen. So arbeitet Here to Help pragmatisch, verständlich und mit Blick auf den tatsächlichen Nutzen."
+    },
+    "/mitwirken": {
+      "title": "Mitwirken und eigene Projekte unterstützen",
+      "description": "Bringe Erfahrung, Beratung, Entwicklung oder Gestaltung in eigene Projekte ein. Erfahre, wie Here to Help freiwillige Mitarbeit und fair bezahlte Projektarbeit vorbereitet."
+    },
+    "/ueber-uns": {
+      "title": "Über Here to Help",
+      "description": "Menschen, Fachwissen und soziale Vorhaben zusammenbringen. Erfahre mehr über die Motivation, Grundsätze und den Aufbau von Here to Help. Die Vereinsgründung wird vorbereitet."
+    },
+    "/kontakt": {
+      "title": "Kontakt und Nachrichtenentwurf",
+      "description": "Ein Vorhaben besprechen oder Interesse an der Mitarbeit formulieren. Die Kontaktadresse steht noch aus; diese Website erstellt nur einen kopierbaren Nachrichtenentwurf."
+    },
+    "/statuten": {
+      "title": "Statutenentwurf auf Deutsch",
+      "description": "Deutscher Gründungsentwurf der Statuten von Here to Help: Zweck, Grundsätze, Finanzierung und Verantwortung. Noch nicht angenommen; keine bestätigte Steuerbefreiung."
+    },
+    "/datenschutz": {
+      "title": "Datenschutz und Transparenz",
+      "description": "Informationen zu lokalen Formularentwürfen, KI-generierten Bildern und Datenschutz. Keine Analytics, Cookies oder dauerhafte Anwendungsspeicherung. Betreiberangaben stehen noch aus."
+    }
+  }
+}

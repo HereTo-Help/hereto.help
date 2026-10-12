@@ -1,3 +1,4 @@
+import { SiteLink } from './SiteLink';
 import { useTranslation } from 'react-i18next';
 import { ArrowUpRight, Heart, ScanHeart, ShieldCheck } from 'lucide-react';
 import { getSiteContent } from '../services/content';
@@ -54,9 +55,9 @@ export function PageIntro({
 }) {
   return (
     <section className="page-intro container">
-      <a className="breadcrumb" href="#/">
+      <SiteLink className="breadcrumb" href="#/">
         Here to Help <ArrowUpRight size={13} />
-      </a>
+      </SiteLink>
       <span className="eyebrow">{label}</span>
       <h1>{title}</h1>
       <p className="lead">{text}</p>

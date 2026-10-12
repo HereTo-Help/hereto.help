@@ -1,3 +1,4 @@
+import { SiteLink } from './SiteLink';
 import { useEffect, useId, useMemo, useRef } from 'react';
 import {
   createLogoMarkup,
@@ -67,7 +68,7 @@ export function AnimatedLogo() {
   }, [markup]);
 
   return (
-    <a
+    <SiteLink
       className="brand animated-logo"
       href="#/"
       aria-label="Here to Help"
@@ -83,6 +84,6 @@ export function AnimatedLogo() {
         src={`${import.meta.env.BASE_URL}logos/logo-heretohelp-light.svg`}
         alt=""
       />
-    </a>
+    </SiteLink>
   );
 }

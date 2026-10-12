@@ -25,3 +25,7 @@ Generated with the built-in image-generation tool on 2026-10-12, using `family-1
 - `project-digital-media-parenting`: a father and daughter discussing a tablet for the Digital Media & Parenting project idea.
 
 Both scenes use fictional people and do not depict actual participants or demonstrate currently available services. The site uses local WebP variants at 600, 1200 and 1536 pixels, with AI disclosure in both language versions of the alternative text.
+
+## Social sharing exports
+
+The files in `social/` are 1200 × 630 JPEG crops of the existing AI-generated editorial WebP images, exported on 2026-10-12 for social-card compatibility. No new scenes or real participants are depicted. They retain the provenance of their corresponding filename stems above. Titles, descriptions and AI image disclosures are supplied by page metadata; the JPEG files contain no added text or branding.

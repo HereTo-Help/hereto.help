@@ -1,3 +1,4 @@
+import { SiteLink } from './SiteLink';
 import {
   ArrowUpRight,
   MessagesSquare,
@@ -40,7 +41,7 @@ export function ServiceCards({ detailed = false }: { detailed?: boolean }) {
             {detailed && (
               <p className="service-detail">{service.description}</p>
             )}
-            <a
+            <SiteLink
               className="text-link"
               href={
                 detailed
@@ -50,7 +51,7 @@ export function ServiceCards({ detailed = false }: { detailed?: boolean }) {
             >
               {t(detailed ? 'servicesPage.ask' : 'servicesPage.allServices')}
               <ArrowUpRight size={17} />
-            </a>
+            </SiteLink>
           </article>
         );
       })}

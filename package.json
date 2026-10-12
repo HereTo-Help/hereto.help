@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "npm run governance:check && tsc -b && vite build",
+    "build": "npm run governance:check && tsc -b && vite build && node scripts/prerender.mjs && node scripts/check-discovery.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "lint": "eslint .",
     "test": "vitest run",

@@ -224,7 +224,8 @@
     "scope": "Wir besprechen Ziel, Umfang und Rahmen gemeinsam. Ein Auftrag kann beratend, entwickelnd oder eine Kombination aus beidem sein. Sicherheitstests erfolgen nach vereinbartem Umfang und mit Freigabe der verantwortlichen Organisation.",
     "ownTitle": "Du möchtest lieber mitgestalten?",
     "ownText": "Unsere eigenen Projekte bieten Raum für Menschen, die beraten, entwickeln und gemeinsam lernen möchten.",
-    "ownAction": "Bei eigenen Projekten mitwirken"
+    "ownAction": "Bei eigenen Projekten mitwirken",
+    "questionsTitle": "Fragen zur Zusammenarbeit."
   },
   "referencesPage": {
     "imageCaption": "KI-generierte Themenwelt · keine Aufnahme des tatsächlichen Projekts",

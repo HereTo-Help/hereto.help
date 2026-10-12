@@ -24,3 +24,11 @@ export function getProject(
 export function getSiteContent(language: Language = getLanguage()) {
   return resources[language].content.site;
 }
+
+export function getSEOContent(language: Language = getLanguage()) {
+  return resources[language].content.seo;
+}
+
+export function getUIContent(language: Language = getLanguage()) {
+  return resources[language].ui;
+}

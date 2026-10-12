@@ -162,5 +162,23 @@
       "text": "Wenn weitere Unterstützung sinnvoll ist und noch nicht im Budget berücksichtigt wurde, können wir unser Netzwerk für zusätzliche Fördermittel oder freiwillige Mitarbeit anfragen.",
       "optional": true
     }
+  ],
+  "serviceFAQs": [
+    {
+      "question": "Für wen ist die technische Unterstützung gedacht?",
+      "answer": "Here to Help richtet sich insbesondere an kleinere Organisationen und Initiativen mit sozialen und menschlichen Anliegen, denen eigene Entwicklungsressourcen fehlen. Wir verbinden das Anliegen mit passendem Fachwissen und prüfen gemeinsam, welche Unterstützung sinnvoll ist."
+    },
+    {
+      "question": "Wie beginnt ein Projekt mit kleinem Budget?",
+      "answer": "Zuerst verstehen wir das Anliegen und die Idee. Danach besprechen wir das verfügbare Budget und suchen eine möglichst nutzbringende Lösung innerhalb dieses Rahmens. Zusätzliche Fördermittel oder freiwillige Mitarbeit können wir optional gemeinsam prüfen; sie werden nicht zugesichert."
+    },
+    {
+      "question": "Wie werden Umfang und Vergütung geklärt?",
+      "answer": "Ziel, Umfang und Rahmen werden gemeinsam besprochen. Bei bezahlter Projektarbeit werden Leistungen und Vergütung vor Beginn schriftlich vereinbart und die Finanzierung geklärt. Sicherheitstests benötigen zusätzlich eine dokumentierte Berechtigung und einen abgegrenzten Umfang."
+    },
+    {
+      "question": "Kann ich an eigenen Projekten mitwirken?",
+      "answer": "Ja, unsere eigenen Projekte laden zur beratenden und entwickelnden Mitarbeit ein. Auch Gestaltung, Fachwissen und Erfahrungen aus dem Alltag können beitragen. Freiwillige Mitarbeit wird ausdrücklich vereinbart und ist keine Mitgliedschaftspflicht. Die Projektseiten zeigen den jeweiligen Stand und offene Fragen."
+    }
   ]
 }

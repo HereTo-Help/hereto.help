@@ -1,0 +1,44 @@
+{
+  "pages": {
+    "/": {
+      "title": "Technology for social initiatives in Switzerland",
+      "description": "Here to Help connects people and expertise: consulting, AI and development for smaller organisations with social aims. Explore our projects and ways to contribute."
+    },
+    "/leistungen": {
+      "title": "AI consulting, prototyping and development",
+      "description": "Technical support for smaller organisations: rapid prototyping, AI consulting, architecture reviews and development. Understand the need, clarify the budget and create practical value."
+    },
+    "/projekte": {
+      "title": "Our projects and project ideas",
+      "description": "Explore Family Butler, stammbeiz.li and ideas for meaningful encounters, fraud prevention and digital media. Clear project status and opportunities to contribute."
+    },
+    "/referenzen": {
+      "title": "Personal project experience",
+      "description": "Experience with club infrastructure, regatta prototypes, hospital communications, animal adoption and fashion photography contributed to Here to Help."
+    },
+    "/arbeitsweise": {
+      "title": "How we work",
+      "description": "Understand the need first, then connect people and expertise. Here to Help works pragmatically, clearly and with a focus on practical value for people."
+    },
+    "/mitwirken": {
+      "title": "Contribute and support our projects",
+      "description": "Contribute experience, consulting, development or design to our projects. Learn how Here to Help prepares voluntary contributions and fairly paid project work."
+    },
+    "/ueber-uns": {
+      "title": "About Here to Help",
+      "description": "Connecting people, expertise and social initiatives. Learn about the motivation, principles and development of Here to Help. Association formation is being prepared."
+    },
+    "/kontakt": {
+      "title": "Contact and message drafts",
+      "description": "Describe your initiative or interest in contributing. A contact address is still pending; this website only prepares a message draft for you to copy."
+    },
+    "/statuten": {
+      "title": "Draft statutes in German",
+      "description": "German draft founding statutes for Here to Help: purpose, principles, funding and responsibility. Not yet adopted; no confirmed tax exemption."
+    },
+    "/datenschutz": {
+      "title": "Privacy and transparency",
+      "description": "Information about local message drafts, AI-generated images and privacy. No analytics, cookies or persistent application storage. Operator details are still pending."
+    }
+  }
+}

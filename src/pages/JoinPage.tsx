@@ -1,3 +1,4 @@
+import { SiteLink } from '../components/SiteLink';
 import { useTranslation } from 'react-i18next';
 import {
   ArrowUpRight,
@@ -30,13 +31,13 @@ export function JoinPage() {
               <Icon size={28} strokeWidth={1.5} />
               <h2>{item.title}</h2>
               <p>{item.text}</p>
-              <a
+              <SiteLink
                 className="text-link"
                 href={`#/kontakt?thema=${encodeURIComponent(item.topic)}`}
               >
                 {t('joinPage.talk')}
                 <ArrowUpRight size={18} />
-              </a>
+              </SiteLink>
             </article>
           );
         })}
