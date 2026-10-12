@@ -16,3 +16,12 @@ Descriptions, filename stems and object positions are configured in `src/locales
 Generated with the built-in image-generation tool on 2026-10-09. These illustrative scenes are explicitly labelled on each reference card in German and English; they do not document the actual projects or named organisations. The local deliverables are `reference-{sailing,communications,adoption,fashion}-{600,1200,1536}.webp`. Reference-to-image and logo assignments are editable in `src/locales/{de,en}/references.json`. Full prompts are recorded in `reference-prompts.md`.
 
 Original organisation logos are saved unchanged in `logos/`; their official pages, original asset URLs and retrieval date are recorded in `logos/sources.json`. The project owner confirmed that Sirius has no organisation logo; its reference uses the Lucide PawPrint icon as requested. The accessible label identifies it as a symbol. No generated logos substitute for an organisation's original logo.
+
+## Dedicated project images
+
+Generated with the built-in image-generation tool on 2026-10-12, using `family-1200.webp` as a style reference. Prompts are recorded in `project-prompts.md`.
+
+- `project-stammbeiz`: an illustrative virtual bar gathering at home for the historical stammbeiz.li project. The screen is a fictional illustration, not documentation of the actual SpatialChat interface.
+- `project-digital-media-parenting`: a father and daughter discussing a tablet for the Digital Media & Parenting project idea.
+
+Both scenes use fictional people and do not depict actual participants or demonstrate currently available services. The site uses local WebP variants at 600, 1200 and 1536 pixels, with AI disclosure in both language versions of the alternative text.

@@ -55,6 +55,40 @@
     }
   },
   {
+    "id": "stammbeiz-li",
+    "image": "project-stammbeiz",
+    "name": "stammbeiz.li",
+    "category": "Virtuelle Begegnungen",
+    "status": "Projekt aus der Corona-Zeit",
+    "stage": "existing",
+    "theme": "sage",
+    "headline": "Am Stammtisch zusammenkommen — auch von zu Hause.",
+    "summary": "Während der Corona-Zeit brachte stammbeiz.li Menschen in virtuell nachgebauten Bars und Restaurants zusammen: zum Reden, Zusammensitzen und gemeinsamen Erleben.",
+    "title": "Ein vertrauter Treffpunkt im digitalen Raum.",
+    "description": "Während der Corona-Zeit und der Ausgangsbeschränkungen unterstützten und entwickelten wir stammbeiz.li. Die Idee war, das spontane Zusammensitzen in der Stammbeiz auch von zu Hause aus zu ermöglichen. Mit SpatialChat wurden die Räume von zwei Bars beziehungsweise Restaurants virtuell nachgebaut. Gäste konnten sich frei durch die Räume bewegen, sich zu anderen an einen Tisch gesellen und miteinander sprechen. Im Mittelpunkt stand die Begegnung zwischen Menschen.",
+    "notice": "Diese Vorstellung ist ein historischer Rückblick auf ein Projekt aus der Corona-Zeit. Die hier beschriebenen virtuellen Treffen mit SpatialChat, das Bier-Tasting und das Burger-Angebot sind keine aktuellen Angebote von stammbeiz.li.",
+    "url": "",
+    "goals": [
+      "Begegnungen ermöglichen, wenn persönliche Treffen nicht möglich waren",
+      "Das spontane Zusammensitzen in einer Bar oder einem Restaurant virtuell nachbilden",
+      "Gemeinsame Erlebnisse auch von zu Hause aus ermöglichen"
+    ],
+    "features": [
+      {
+        "title": "Von Tisch zu Tisch",
+        "text": "Die virtuell nachgebauten Räume der beiden Lokale ermöglichten spontane Gespräche: Gäste konnten sich frei bewegen und zu anderen an einen Tisch gesellen."
+      },
+      {
+        "title": "Appenzeller Bier-Tasting",
+        "text": "In einer Bar wurde ein Appenzeller Bier-Tasting angeboten. Das Tasting-Set wurde den Teilnehmenden nach Hause geschickt."
+      },
+      {
+        "title": "Burger zum Abholen",
+        "text": "Im Restaurant konnten Burger vorbestellt und anschliessend «über die Gasse» abgeholt werden."
+      }
+    ]
+  },
+  {
     "id": "meet-for-real",
     "image": "connection",
     "name": "Meet for Real",
@@ -99,7 +133,7 @@
   },
   {
     "id": "digital-media-parenting",
-    "image": "family",
+    "image": "project-digital-media-parenting",
     "stage": "idea",
     "theme": "peach",
     "url": "",

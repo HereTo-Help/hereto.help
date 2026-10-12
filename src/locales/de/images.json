@@ -38,5 +38,15 @@
     "file": "reference-fashion",
     "alt": "KI-generierte Themenwelt: Stoffe, Schnittmuster und Nähwerkzeug in einem Modeatelier.",
     "position": "50% 50%"
+  },
+  "project-stammbeiz": {
+    "file": "project-stammbeiz",
+    "alt": "KI-generierte Bildszene: Eine Frau nimmt zu Hause an einem virtuellen Treffen in einer illustrierten Bar teil.",
+    "position": "50% 45%"
+  },
+  "project-digital-media-parenting": {
+    "file": "project-digital-media-parenting",
+    "alt": "KI-generierte Bildszene: Ein Vater hört seiner Tochter zu, während sie gemeinsam über ein Tablet sprechen.",
+    "position": "50% 45%"
   }
 }
