@@ -56,17 +56,17 @@
   },
   {
     "id": "stammbeiz-li",
-    "image": "connection",
+    "image": "project-stammbeiz",
     "name": "stammbeiz.li",
     "category": "Virtual encounters",
     "status": "Project from the COVID-19 period",
     "stage": "existing",
     "theme": "sage",
-    "headline": "Experience your local bar, virtually.",
-    "summary": "A digital meeting place recreated the feeling of visiting a bar or restaurant during the COVID-19 period.",
-    "title": "Coming together when meeting in person was hardly possible.",
-    "description": "During the COVID-19 period and restrictions on movement, we supported and developed stammbeiz.li. Using SpatialChat, we recreated the rooms of two bars and restaurants online. Unlike an ordinary chat or closed group, guests could move freely through the rooms, join a table and talk to one another.",
-    "notice": "A historical look back at a project from the COVID-19 period. SpatialChat, the beer tasting and the burger offer are not currently available.",
+    "headline": "Gather at your local — even from home.",
+    "summary": "During the COVID-19 period, stammbeiz.li brought people together in virtual recreations of bars and restaurants to talk, spend time together and share experiences.",
+    "title": "A familiar meeting place in a digital space.",
+    "description": "During the COVID-19 period and restrictions on movement, we supported and developed stammbeiz.li. The idea was to make spontaneous gatherings at a local bar or restaurant possible from home. Using SpatialChat, we recreated the rooms of two bars and restaurants online. Guests could move freely through the rooms, join others at a table and talk to one another. Bringing people together was at the heart of the project.",
+    "notice": "This introduction is a historical look back at a project from the COVID-19 period. The virtual gatherings using SpatialChat, the beer tasting and the burger offer described here are not currently available through stammbeiz.li.",
     "url": "",
     "goals": [
       "Enable people to meet when in-person gatherings were not possible",
@@ -75,8 +75,8 @@
     ],
     "features": [
       {
-        "title": "Virtual rooms to move around in",
-        "text": "Two bars and restaurants were recreated in SpatialChat. Guests could move freely, join tables and talk to one another."
+        "title": "From table to table",
+        "text": "Virtual recreations of the two venues made spontaneous conversations possible: guests could move freely and join others at a table."
       },
       {
         "title": "Appenzeller beer tasting",
@@ -133,7 +133,7 @@
   },
   {
     "id": "digital-media-parenting",
-    "image": "family",
+    "image": "project-digital-media-parenting",
     "stage": "idea",
     "theme": "peach",
     "url": "",

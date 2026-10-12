@@ -38,5 +38,15 @@
     "file": "reference-fashion",
     "alt": "AI-generated thematic image: fabrics, patterns and sewing tools in a fashion atelier.",
     "position": "50% 50%"
+  },
+  "project-stammbeiz": {
+    "file": "project-stammbeiz",
+    "alt": "AI-generated scene: a woman at home joins a virtual gathering in an illustrated bar.",
+    "position": "50% 45%"
+  },
+  "project-digital-media-parenting": {
+    "file": "project-digital-media-parenting",
+    "alt": "AI-generated scene: a father listens to his daughter as they discuss a tablet together.",
+    "position": "50% 45%"
   }
 }

@@ -56,17 +56,17 @@
   },
   {
     "id": "stammbeiz-li",
-    "image": "connection",
+    "image": "project-stammbeiz",
     "name": "stammbeiz.li",
     "category": "Virtuelle Begegnungen",
     "status": "Projekt aus der Corona-Zeit",
     "stage": "existing",
     "theme": "sage",
-    "headline": "Das Stammbeizli virtuell erleben.",
-    "summary": "Ein digitaler Treffpunkt brachte während der Corona-Zeit das Gefühl von Bar- und Restaurantbesuchen zurück.",
-    "title": "Zusammenkommen, als persönliche Treffen kaum möglich waren.",
-    "description": "Während der Corona-Zeit und der Ausgangsbeschränkungen unterstützten und entwickelten wir stammbeiz.li. Mit SpatialChat wurden die Räume von zwei Bars beziehungsweise Restaurants virtuell nachgebaut. Anders als in einem gewöhnlichen Chat oder einer geschlossenen Gruppe konnten sich die Gäste frei durch die Räume bewegen, sich an Tische setzen und miteinander sprechen.",
-    "notice": "Ein historischer Rückblick auf ein Projekt aus der Corona-Zeit. SpatialChat, Bier-Tasting und Burger-Angebot sind keine aktuellen Angebote.",
+    "headline": "Am Stammtisch zusammenkommen — auch von zu Hause.",
+    "summary": "Während der Corona-Zeit brachte stammbeiz.li Menschen in virtuell nachgebauten Bars und Restaurants zusammen: zum Reden, Zusammensitzen und gemeinsamen Erleben.",
+    "title": "Ein vertrauter Treffpunkt im digitalen Raum.",
+    "description": "Während der Corona-Zeit und der Ausgangsbeschränkungen unterstützten und entwickelten wir stammbeiz.li. Die Idee war, das spontane Zusammensitzen in der Stammbeiz auch von zu Hause aus zu ermöglichen. Mit SpatialChat wurden die Räume von zwei Bars beziehungsweise Restaurants virtuell nachgebaut. Gäste konnten sich frei durch die Räume bewegen, sich zu anderen an einen Tisch gesellen und miteinander sprechen. Im Mittelpunkt stand die Begegnung zwischen Menschen.",
+    "notice": "Diese Vorstellung ist ein historischer Rückblick auf ein Projekt aus der Corona-Zeit. Die hier beschriebenen virtuellen Treffen mit SpatialChat, das Bier-Tasting und das Burger-Angebot sind keine aktuellen Angebote von stammbeiz.li.",
     "url": "",
     "goals": [
       "Begegnungen ermöglichen, wenn persönliche Treffen nicht möglich waren",
@@ -75,8 +75,8 @@
     ],
     "features": [
       {
-        "title": "Virtuelle Räume zum Bewegen",
-        "text": "Zwei Bars und Restaurants wurden in SpatialChat nachgebaut. Gäste konnten sich frei bewegen, an Tische gesellen und miteinander sprechen."
+        "title": "Von Tisch zu Tisch",
+        "text": "Die virtuell nachgebauten Räume der beiden Lokale ermöglichten spontane Gespräche: Gäste konnten sich frei bewegen und zu anderen an einen Tisch gesellen."
       },
       {
         "title": "Appenzeller Bier-Tasting",
@@ -133,7 +133,7 @@
   },
   {
     "id": "digital-media-parenting",
-    "image": "family",
+    "image": "project-digital-media-parenting",
     "stage": "idea",
     "theme": "peach",
     "url": "",
