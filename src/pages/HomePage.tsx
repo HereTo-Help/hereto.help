@@ -1,3 +1,4 @@
+import { SiteLink } from '../components/SiteLink';
 import { useTranslation } from 'react-i18next';
 import { ArrowUpRight, ArrowDown, Sprout } from 'lucide-react';
 import { HeroTrailer } from '../components/Photography';
@@ -34,10 +35,10 @@ export function HomePage() {
             <LinkButton href="#/leistungen">
               {t('homePage.projectsAction')}
             </LinkButton>
-            <a className="quiet-link" href="#/mitwirken">
+            <SiteLink className="quiet-link" href="#/mitwirken">
               {t('homePage.joinAction')}
               <ArrowUpRight size={17} />
-            </a>
+            </SiteLink>
           </div>
           <span className="hero-tagline">
             Helpful technology for real life.
@@ -59,10 +60,10 @@ export function HomePage() {
           <p>{t('homePage.missionLead')}</p>
           <p>{t('homePage.missionText')}</p>
           <p>{t('homePage.missionResponsibility')}</p>
-          <a href="#/arbeitsweise" className="text-link">
+          <SiteLink href="#/arbeitsweise" className="text-link">
             {t('homePage.approachAction')}
             <ArrowUpRight size={18} />
-          </a>
+          </SiteLink>
         </div>
       </section>
       <section className="services-preview section">
@@ -94,10 +95,10 @@ export function HomePage() {
                 <br />
                 {t('homePage.projectsText')}
               </p>
-              <a href="#/projekte" className="text-link">
+              <SiteLink href="#/projekte" className="text-link">
                 {t('homePage.allProjects')}
                 <ArrowUpRight size={18} />
-              </a>
+              </SiteLink>
             </div>
           </div>
           <div className="project-grid">
@@ -121,13 +122,13 @@ export function HomePage() {
               <span className="emphasis">{t('homePage.workSecond')}</span>
             </h2>
           </div>
-          <a
+          <SiteLink
             className="round-link"
             href="#/arbeitsweise"
             aria-label={t('homePage.workLabel')}
           >
             <ArrowUpRight />
-          </a>
+          </SiteLink>
         </div>
         <WorkSteps />
       </section>

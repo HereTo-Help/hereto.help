@@ -1,3 +1,4 @@
+import { SiteLink } from '../components/SiteLink';
 import { useTranslation } from 'react-i18next';
 import { Badge, Callout } from '@radix-ui/themes';
 import { ArrowLeft, Check, Info } from 'lucide-react';
@@ -14,10 +15,10 @@ export function ProjectPage({ id }: { id: string }) {
   return (
     <>
       <section className={`project-detail container ${project.theme}`}>
-        <a href="#/projekte" className="text-link back-link">
+        <SiteLink href="#/projekte" className="text-link back-link">
           <ArrowLeft size={16} />
           {t('projectPage.all')}
-        </a>
+        </SiteLink>
         <div className="detail-grid">
           <div>
             <Badge size="2" color={project.stage === 'idea' ? 'gray' : 'teal'}>

@@ -1,9 +1,11 @@
+import { getPageMetadata, updateDocumentMetadata } from '../services/seo';
+import { SiteLink } from './SiteLink';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useRef } from 'react';
 import { Dialog, IconButton } from '@radix-ui/themes';
 import { ArrowUpRight, Menu, X } from 'lucide-react';
 import type { ReactNode } from 'react';
-import { getProject, getSiteContent } from '../services/content';
+import { getSiteContent } from '../services/content';
 import { LinkButton } from './LinkButton';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { getLanguage } from '../i18n';
@@ -21,39 +23,15 @@ export function Layout({
   const site = getSiteContent();
   const main = useRef<HTMLElement>(null);
   useEffect(() => {
-    const title =
-      (path.startsWith('/projekte/')
-        ? getProject(path.slice('/projekte/'.length))?.name
-        : undefined) ??
-      site.navigation.find(
-        (item) =>
-          path === item.path ||
-          (item.path === '/projekte' && path === '/referenzen'),
-      )?.label ??
-      (path === '/kontakt'
-        ? t('common.contact')
-        : path === '/'
-          ? 'Helpful technology for real life.'
-          : path === '/statuten'
-            ? 'Statuten'
-            : path === '/arbeitsweise'
-              ? t('workPage.eyebrow')
-              : path === '/datenschutz'
-                ? t('common.privacyTitle')
-                : t('common.projectTitle'));
-    document.title = `${title} — Here to Help`;
-    document.documentElement.lang = getLanguage() === 'de' ? 'de-CH' : 'en';
-    document
-      .querySelector('meta[name="description"]')
-      ?.setAttribute('content', t('common.metaDescription'));
-  }, [path, site.navigation, t]);
+    updateDocumentMetadata(getPageMetadata(path, getLanguage()));
+  }, [path, t]);
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
     main.current?.focus({ preventScroll: true });
   }, [path]);
   return (
     <>
-      <a
+      <SiteLink
         className="skip-link"
         href="#main"
         onClick={(event) => {
@@ -62,13 +40,13 @@ export function Layout({
         }}
       >
         {t('layout.skip')}
-      </a>
+      </SiteLink>
       <header className="site-header">
         <div className="container header-inner">
           <AnimatedLogo />
           <nav className="desktop-nav" aria-label={t('layout.navigation')}>
             {site.navigation.map((item) => (
-              <a
+              <SiteLink
                 key={item.path}
                 href={`#${item.path}`}
                 aria-current={
@@ -79,7 +57,7 @@ export function Layout({
                 }
               >
                 {item.label}
-              </a>
+              </SiteLink>
             ))}
           </nav>
           <div className="header-cta">
@@ -111,7 +89,7 @@ export function Layout({
                   { label: t('common.contact'), path: '/kontakt' },
                 ].map((item) => (
                   <Dialog.Close key={item.path}>
-                    <a
+                    <SiteLink
                       href={`#${item.path}`}
                       aria-current={
                         path === item.path ||
@@ -124,7 +102,7 @@ export function Layout({
                     >
                       {item.label}
                       <ArrowUpRight size={20} />
-                    </a>
+                    </SiteLink>
                   </Dialog.Close>
                 ))}
               </nav>
@@ -148,32 +126,32 @@ export function Layout({
         <div className="container">
           <div className="footer-top">
             <div>
-              <a className="brand" href="#/">
+              <SiteLink className="brand" href="#/">
                 <img
                   className="brand-logo"
                   src={`${import.meta.env.BASE_URL}logos/logo-heretohelp-dark.svg`}
                   alt="Here to Help"
                 />
-              </a>
+              </SiteLink>
               <p>Helpful technology for real life.</p>
             </div>
             <div className="footer-nav">
-              <a href="#/leistungen">{t('layout.services')}</a>
-              <a href="#/projekte">{t('portfolio.menuLabel')}</a>
-              <a href="#/arbeitsweise">{t('layout.approach')}</a>
-              <a href="#/mitwirken">{t('layout.participate')}</a>
-              <a href="#/kontakt">
+              <SiteLink href="#/leistungen">{t('layout.services')}</SiteLink>
+              <SiteLink href="#/projekte">{t('portfolio.menuLabel')}</SiteLink>
+              <SiteLink href="#/arbeitsweise">{t('layout.approach')}</SiteLink>
+              <SiteLink href="#/mitwirken">{t('layout.participate')}</SiteLink>
+              <SiteLink href="#/kontakt">
                 {t('layout.contact')}
                 <ArrowUpRight size={14} />
-              </a>
+              </SiteLink>
             </div>
           </div>
           <p className="footer-image-note">{t('layout.imageDisclosure')}</p>
           <div className="footer-bottom">
             <span>© {new Date().getFullYear()} Here to Help</span>
             <span>{t('layout.humanTagline')}</span>
-            <a href="#/statuten">{t('layout.statutes')}</a>
-            <a href="#/datenschutz">{t('layout.privacy')}</a>
+            <SiteLink href="#/statuten">{t('layout.statutes')}</SiteLink>
+            <SiteLink href="#/datenschutz">{t('layout.privacy')}</SiteLink>
           </div>
         </div>
       </footer>

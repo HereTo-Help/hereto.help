@@ -1,3 +1,4 @@
+import { SiteLink } from '../components/SiteLink';
 import { useTranslation } from 'react-i18next';
 import { Printer, Download, Info } from 'lucide-react';
 import { Button, Callout } from '@radix-ui/themes';
@@ -31,14 +32,14 @@ export function StatutesPage() {
             <Printer size={17} />
             Drucken / als PDF speichern
           </Button>
-          <a
+          <SiteLink
             className="text-link"
             href={`${import.meta.env.BASE_URL}governance/statuten.de.md`}
             download
           >
             <Download size={17} />
             Statuten herunterladen (Markdown)
-          </a>
+          </SiteLink>
         </div>
       </header>
       <Callout.Root color="amber" size="3">
@@ -54,9 +55,9 @@ export function StatutesPage() {
         >
           <h2>Inhalt</h2>
           {statutes.articles.map((article) => (
-            <a
+            <SiteLink
               key={article.id}
-              href={`#/statuten`}
+              href={`#${article.id}`}
               onClick={(event) => {
                 event.preventDefault();
                 document
@@ -68,7 +69,7 @@ export function StatutesPage() {
               }}
             >
               {article.title}
-            </a>
+            </SiteLink>
           ))}
         </nav>
         <div className="statutes-body">
@@ -98,9 +99,9 @@ export function StatutesPage() {
             <ul>
               {statutes.sources.map((source) => (
                 <li key={source.url}>
-                  <a href={source.url} target="_blank" rel="noreferrer">
+                  <SiteLink href={source.url} target="_blank" rel="noreferrer">
                     {source.label}
-                  </a>
+                  </SiteLink>
                 </li>
               ))}
             </ul>

@@ -1,3 +1,4 @@
+import { localizedPath, readLocation } from '../services/routes';
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import { resources, type Language } from './resources';
@@ -11,7 +12,7 @@ export function resolveLanguage(value: string | null | undefined): Language {
 function languageFromUrl(): Language {
   return typeof window === 'undefined'
     ? 'de'
-    : resolveLanguage(new URL(window.location.href).searchParams.get('lang'));
+    : readLocation(new URL(window.location.href)).language;
 }
 
 void i18n.use(initReactI18next).init({
@@ -33,9 +34,13 @@ export function getLanguage(): Language {
 export async function changeLanguage(language: Language) {
   if (getLanguage() === language) return;
   const url = new URL(window.location.href);
-  url.searchParams.set('lang', language);
+  const { path, params } = readLocation(url);
+  url.pathname = localizedPath(path, language);
+  url.search = params.toString();
+  url.hash = '';
   window.history.pushState(null, '', url);
   await i18n.changeLanguage(language);
+  window.dispatchEvent(new Event('routechange'));
 }
 
 if (typeof window !== 'undefined') {

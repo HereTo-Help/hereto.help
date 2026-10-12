@@ -1,3 +1,4 @@
+import { SiteLink } from '../components/SiteLink';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { Button, Callout, Select, TextArea, TextField } from '@radix-ui/themes';
@@ -97,10 +98,10 @@ export function ContactPage({ initialTopic }: { initialTopic: string }) {
           <h2>{t('contactPage.asideTitle')}</h2>
           <p>{t('contactPage.asideText')}</p>
           {contactEmail ? (
-            <a className="text-link" href={`mailto:${contactEmail}`}>
+            <SiteLink className="text-link" href={`mailto:${contactEmail}`}>
               <Mail size={17} />
               {contactEmail}
-            </a>
+            </SiteLink>
           ) : (
             <Callout.Root color="gray">
               <Callout.Icon>

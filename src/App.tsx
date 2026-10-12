@@ -23,9 +23,9 @@ const ReferencesPage = lazy(() =>
   })),
 );
 
-export function App() {
+export function App({ initialRoute = '/' }: { initialRoute?: string }) {
   const { t } = useTranslation();
-  const { path, params } = useRoute();
+  const { path, params } = useRoute(initialRoute);
   const pages: Record<string, React.ReactNode> = {
     '/': <HomePage />,
     '/leistungen': <ServicesPage />,

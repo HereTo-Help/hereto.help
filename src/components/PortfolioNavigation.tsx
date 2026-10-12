@@ -1,3 +1,4 @@
+import { SiteLink } from './SiteLink';
 import { useTranslation } from 'react-i18next';
 
 export function PortfolioNavigation({
@@ -11,18 +12,18 @@ export function PortfolioNavigation({
       className="container portfolio-navigation"
       aria-label={t('portfolio.navigation')}
     >
-      <a
+      <SiteLink
         href="#/projekte"
         aria-current={active === 'projects' ? 'page' : undefined}
       >
         {t('portfolio.projects')}
-      </a>
-      <a
+      </SiteLink>
+      <SiteLink
         href="#/referenzen"
         aria-current={active === 'references' ? 'page' : undefined}
       >
         {t('portfolio.references')}
-      </a>
+      </SiteLink>
     </nav>
   );
 }

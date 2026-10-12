@@ -1,3 +1,4 @@
+import { SiteLink } from './SiteLink';
 import { useTranslation } from 'react-i18next';
 import { Badge } from '@radix-ui/themes';
 import { ArrowUpRight } from 'lucide-react';
@@ -9,13 +10,13 @@ export function ProjectCard({ project }: { project: Project }) {
 
   return (
     <article className={`project-card ${project.theme}`}>
-      <a
+      <SiteLink
         className="project-image-link"
         href={`#/projekte/${project.id}`}
         aria-label={`${t('common.discover')}: ${project.name}`}
       >
         <ProjectPhotography id={project.id} />
-      </a>
+      </SiteLink>
       <div className="project-card-body">
         <div className="project-meta">
           <span>{project.category}</span>
@@ -29,14 +30,14 @@ export function ProjectCard({ project }: { project: Project }) {
           </Badge>
         </div>
         <h3>
-          <a href={`#/projekte/${project.id}`}>{project.name}</a>
+          <SiteLink href={`#/projekte/${project.id}`}>{project.name}</SiteLink>
         </h3>
         <h4>{project.headline}</h4>
         <p>{project.summary}</p>
-        <a className="text-link" href={`#/projekte/${project.id}`}>
+        <SiteLink className="text-link" href={`#/projekte/${project.id}`}>
           {t('projectCard.discover')}
           <ArrowUpRight size={19} />
-        </a>
+        </SiteLink>
       </div>
     </article>
   );

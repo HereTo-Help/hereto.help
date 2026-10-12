@@ -4,7 +4,7 @@
 
 Der Entwurf Version 0.2 präzisiert marktgerechte und angemessene Vergütung für Projektarbeit, freiwillige Mitarbeit, Sponsoring und Fördergelder. Ertragsüberschüsse dürfen zweckdienliche Förderprojekte und Vorhaben im Aufbau quersubventionieren. Der Vorstand entscheidet innerhalb von Budget und Zweckbindungen; Mittelübertragungen werden nachvollziehbar dokumentiert. Das Vergütungsziel ersetzt keine individuellen Verträge. Die ordentliche Vorstandstätigkeit bleibt ehrenamtlich.
 
-Die vorerst nur deutschen Statuten sind über den Footer unter `#/statuten` erreichbar. Sitz ist Ebikon (LU); vorgesehen sind eine einheitliche beitragsfreie Mitgliedschaft und ein Vorstand mit zwei bis fünf Personen. Die Fassung ist ausdrücklich ein **Gründungsentwurf**. Die Annahme, Wahl der Organe und Unterzeichnung erfolgen durch Menschen an der Gründungsversammlung. Steuerbefreiung und Handelsregisterpflicht werden separat anhand der tatsächlichen Tätigkeit geprüft.
+Die vorerst nur deutschen Statuten sind über den Footer unter `/statuten/` erreichbar. Sitz ist Ebikon (LU); vorgesehen sind eine einheitliche beitragsfreie Mitgliedschaft und ein Vorstand mit zwei bis fünf Personen. Die Fassung ist ausdrücklich ein **Gründungsentwurf**. Die Annahme, Wahl der Organe und Unterzeichnung erfolgen durch Menschen an der Gründungsversammlung. Steuerbefreiung und Handelsregisterpflicht werden separat anhand der tatsächlichen Tätigkeit geprüft.
 
 Die einzige Textquelle ist `public/governance/statuten.de.json`. Die Website liest sie über `src/services/statutes.ts` und lädt die Statutenseite bei Bedarf nach. `npm run governance:generate` erzeugt daraus `public/governance/statuten.de.md` zum Download und für Agenten. `npm run governance:check` prüft die Übereinstimmung und läuft auch vor dem Build. Druckansicht bzw. PDF-Speicherung erfolgen über den Browser. Hinweise zur Annahme sind vom eigentlichen Statutentext getrennt.
 
@@ -37,7 +37,7 @@ src/
   components/   Shared layout, UI and responsive photography
   i18n/         Translation setup, typed keys and completeness tests
   locales/      German/English JSON dictionaries and editorial content
-  hooks/        Static-host-friendly hash routing
+  hooks/        Crawlable static-page routing
   pages/        Page-level components
   services/     Content access boundary and content integrity tests
   styles/       Theme, layout, responsive and accessibility rules
@@ -45,9 +45,9 @@ src/
 public/         Static favicon and optimised local photographs
 ```
 
-The website includes a home page, commissioned services, project listing with filters, four project detail views, working principles, participation, about, contact, transparency and a not-found view. Hash routes work on ordinary static hosts without server rewrites. Radix supplies buttons, badges, accessible dialogs, segmented controls, callouts and form controls.
+The website includes a home page, commissioned services, project listing with filters, five project detail views, working principles, participation, about, contact, transparency and a not-found view. The build pre-renders each German and English page into a directory with its own index.html; ordinary static hosts serve these pages without SPA rewrites. Radix supplies buttons, badges, accessible dialogs, segmented controls, callouts and form controls.
 
-The main navigation has four entries: services, projects & references, participation and about. Projects and references share one introductory area and `PortfolioNavigation`, with separate linked views at the existing `#/projekte` and `#/referenzen` routes so direct links and browser history remain usable. Own initiatives and founder-contributed experience stay explicitly distinguished. Working principles remain accessible from About and the footer; the full small-budget process is presented on Services, with a short link from the working-method page instead of a duplicate process.
+The main navigation has four entries: services, projects & references, participation and about. Projects and references share one introductory area and `PortfolioNavigation`, with separate linked views at the existing `/projekte/` and `/referenzen/` routes so direct links and browser history remain usable. Own initiatives and founder-contributed experience stay explicitly distinguished. Working principles remain accessible from About and the footer; the full small-budget process is presented on Services, with a short link from the working-method page instead of a duplicate process.
 
 ## Editing content
 
@@ -66,17 +66,17 @@ The concept does not supply a verified email address, so `contactEmail` is empty
 
 ## Languages
 
-The header's DE/EN switch changes the language in place, preserving the current route, active project filter and unsent contact form. German is the default and fallback. The preference is part of the URL (`?lang=en#/arbeitsweise` or `?lang=de#/arbeitsweise`), so shared links and refreshes retain it without cookies or browser storage. Browser Back/Forward restores language changes.
+The header's DE/EN switch changes the language in place, preserving the current route, active project filter and unsent contact form. German is the default and fallback. Language is part of the URL (`/en/arbeitsweise/` or `/arbeitsweise/`), so shared links and refreshes retain it without cookies or browser storage. Old hash links and language query parameters are migrated in the browser. Browser Back/Forward restores language changes.
 
 Both languages are bundled with the static app: no runtime translation API or server is needed. The `ui` namespace holds interface translations; `content` holds editorial JSON. The translation keys are typed, and tests verify the same keys, interpolation placeholders, stable routes, project IDs and contact topic IDs in each language. Project counts use i18next plural forms.
 
 For additional languages, create a corresponding locale directory, register it in `src/i18n/resources.ts`, update the supported language list/resolver and extend the switcher. Maintain translation key parity. Keep route paths, project IDs, image filename stems and topic IDs language-independent. Rebuild after edits.
 
-The current application retains hash routing and one static HTML entry point. This provides multilingual application behaviour; it is not a pre-rendered, per-language SEO implementation. If independent indexed pages become a priority, add static pre-rendering and locale paths such as `/de/` and `/en/`. i18next can remain the translation layer.
+Every public page is pre-rendered at build time in German and English. German uses the root paths and English uses `/en/`. i18next remains the translation layer; navigation and language changes preserve application state where appropriate. Search engines and social crawlers receive the visible page content and metadata without executing JavaScript.
 
 ## Publishing
 
-`npm run build` produces `dist/`. Upload its contents to a static host. `base: './'` supports subdirectory hosting; hash routes do not require SPA fallbacks. For Azure Static Web Apps use app location `/`, leave API location blank and use output location `dist`. Do not deploy the development server.
+`npm run build` produces `dist/`. Upload its contents to a static host. `base: "/"` targets domain-root hosting. The canonical origin is configured in `src/config/site.json`. The confirmed public domain is `https://hereto.help`; repository-subdirectory hosting requires a different base and URL configuration. For Azure Static Web Apps use app location `/`, leave API location blank and use output location `dist`. Do not deploy the development server.
 
 Before public launch:
 
@@ -122,6 +122,10 @@ One-time setup:
 3. Open Actions > Deploy website to GitHub Pages > Run workflow and choose `main` if the initial run occurred before Pages was enabled.
 4. Wait for both build and deploy jobs to succeed.
 
-The default website address is `https://hereto-help.github.io/hereto.help/`. The existing relative Vite base and hash routing support this repository subdirectory. A custom domain can be configured separately in Pages settings after DNS is ready.
+This build targets `https://hereto.help/`, with a generated CNAME file. Configure that custom domain and its DNS in Pages settings before publishing this routing change. The default `https://hereto-help.github.io/hereto.help/` repository subdirectory is not the target of this build.
 
 After setup, pushes to `main` automatically update the published website. The launch prerequisites in the Publishing section still apply. `public/staticwebapp.config.json` is specific to Azure Static Web Apps; GitHub Pages does not apply its custom response headers.
+
+## Search, social sharing and AI readers
+
+See `docs/discoverability.md` for the implementation, crawler policy, account setup and launch checks. Editable page titles and descriptions are in `src/locales/{de,en}/seo.json`. `src/config/site.json` defines the canonical origin. `npm run build` generates 30 public HTML pages, a sitemap, robots.txt, accurate JSON-LD, Open Graph and Twitter cards, and optional source-derived agent content (`llms.txt`, Markdown and JSON). The build checks internal links, language alternates, metadata, social images and error-page indexing.

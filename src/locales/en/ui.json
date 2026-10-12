@@ -224,7 +224,8 @@
     "scope": "We agree on goals, scope and constraints together. An assignment can involve advice, development or both. Security tests follow an agreed scope and require authorisation from the responsible organisation.",
     "ownTitle": "Would you like to help shape a project?",
     "ownText": "Our own projects welcome people who want to advise, develop and learn together.",
-    "ownAction": "Contribute to our own projects"
+    "ownAction": "Contribute to our own projects",
+    "questionsTitle": "Questions about working together."
   },
   "referencesPage": {
     "imageCaption": "AI-generated thematic image · not a photograph of the actual project",

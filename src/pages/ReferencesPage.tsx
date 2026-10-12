@@ -1,3 +1,4 @@
+import { SiteLink } from '../components/SiteLink';
 import { useTranslation } from 'react-i18next';
 import {
   ArrowUpRight,
@@ -92,7 +93,7 @@ export function ReferencesPage() {
                     <p className="reference-summary">{reference.summary}</p>
                     <p>{reference.context}</p>
                     {reference.organisationUrl && (
-                      <a
+                      <SiteLink
                         className="text-link"
                         href={reference.organisationUrl}
                         target="_blank"
@@ -100,7 +101,7 @@ export function ReferencesPage() {
                       >
                         {t('referencesPage.organisationLink')}
                         <ArrowUpRight size={17} />
-                      </a>
+                      </SiteLink>
                     )}
                   </div>
                   <div className="reference-detail">

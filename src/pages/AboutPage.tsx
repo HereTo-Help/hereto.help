@@ -1,3 +1,4 @@
+import { SiteLink } from '../components/SiteLink';
 import { useTranslation } from 'react-i18next';
 import { Photo } from '../components/Photo';
 import { JoinSection, PageIntro } from '../components/SharedSections';
@@ -28,9 +29,9 @@ export function AboutPage() {
           <p>{t('aboutPage.storyApproach')}</p>
           <p>{t('aboutPage.storyResponsibility')}</p>
           <p>{t('aboutPage.storyProjects')}</p>
-          <a href="#/arbeitsweise" className="text-link">
+          <SiteLink href="#/arbeitsweise" className="text-link">
             {t('homePage.approachAction')}
-          </a>
+          </SiteLink>
         </div>
       </section>
       <section className="container section two-column">
@@ -40,9 +41,9 @@ export function AboutPage() {
         </div>
         <div className="prose">
           <p>{t('referencesPage.originText')}</p>
-          <a href="#/referenzen" className="text-link">
+          <SiteLink href="#/referenzen" className="text-link">
             {t('referencesPage.allReferences')}
-          </a>
+          </SiteLink>
         </div>
       </section>
       <section className="container section two-column">

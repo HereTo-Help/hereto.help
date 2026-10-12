@@ -1,3 +1,4 @@
+import { getSiteContent } from '../services/content';
 import { useTranslation } from 'react-i18next';
 import { PageIntro } from '../components/SharedSections';
 import { BudgetApproach } from '../components/BudgetApproach';
@@ -48,6 +49,18 @@ export function ServicesPage() {
         <LinkButton href="#/mitwirken" secondary>
           {t('servicesPage.ownAction')}
         </LinkButton>
+      </section>
+      <section
+        className="container section services-questions"
+        aria-labelledby="services-questions"
+      >
+        <h2 id="services-questions">{t('servicesPage.questionsTitle')}</h2>
+        {getSiteContent().serviceFAQs.map(({ question, answer }) => (
+          <article key={question}>
+            <h3>{question}</h3>
+            <p>{answer}</p>
+          </article>
+        ))}
       </section>
     </>
   );
